@@ -1,0 +1,17 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/condabin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda-env
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/activate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/deactivate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.csh
+modified      /home/waris/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+slurmstepd: error: *** JOB 2237206 ON tc-gpu003 CANCELLED AT 2024-03-22T23:05:28 DUE TO TIME LIMIT ***

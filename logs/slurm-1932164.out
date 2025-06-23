@@ -1,0 +1,82 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/condabin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda-env
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/activate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/deactivate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /home/waris/.bashrc
+No action taken.
+Starting Simulation ..
+  0%|          | 0.00/93.6M [00:00<?, ?B/s]  0%|          | 49.2k/93.6M [00:00<05:52, 265kB/s]  0%|          | 131k/93.6M [00:00<03:08, 495kB/s]   0%|          | 279k/93.6M [00:00<01:49, 850kB/s]  1%|          | 590k/93.6M [00:00<00:57, 1.61MB/s]  1%|▏         | 1.20M/93.6M [00:00<00:30, 3.01MB/s]  3%|▎         | 2.41M/93.6M [00:00<00:15, 5.79MB/s]  5%|▌         | 4.82M/93.6M [00:00<00:07, 11.2MB/s]  6%|▋         | 5.97M/93.6M [00:00<00:07, 11.0MB/s]  9%|▉         | 8.57M/93.6M [00:01<00:05, 15.3MB/s] 11%|█▏        | 10.7M/93.6M [00:01<00:05, 16.2MB/s] 15%|█▍        | 13.6M/93.6M [00:01<00:04, 19.4MB/s] 18%|█▊        | 16.5M/93.6M [00:01<00:03, 21.7MB/s] 20%|██        | 19.1M/93.6M [00:01<00:03, 23.1MB/s] 23%|██▎       | 21.6M/93.6M [00:01<00:03, 23.6MB/s] 26%|██▌       | 24.0M/93.6M [00:01<00:02, 23.6MB/s] 29%|██▊       | 26.7M/93.6M [00:01<00:02, 24.4MB/s] 32%|███▏      | 29.7M/93.6M [00:01<00:02, 25.4MB/s] 35%|███▍      | 32.5M/93.6M [00:01<00:02, 25.9MB/s] 38%|███▊      | 35.4M/93.6M [00:02<00:02, 26.5MB/s] 41%|████      | 38.2M/93.6M [00:02<00:02, 26.5MB/s] 44%|████▍     | 41.1M/93.6M [00:02<00:01, 26.9MB/s] 47%|████▋     | 44.0M/93.6M [00:02<00:01, 27.0MB/s] 50%|█████     | 47.0M/93.6M [00:02<00:01, 27.4MB/s] 53%|█████▎    | 49.9M/93.6M [00:02<00:01, 27.5MB/s] 57%|█████▋    | 52.9M/93.6M [00:02<00:01, 27.8MB/s] 60%|█████▉    | 55.7M/93.6M [00:02<00:01, 27.5MB/s] 63%|██████▎   | 58.7M/93.6M [00:02<00:01, 27.9MB/s] 66%|██████▌   | 61.7M/93.6M [00:03<00:01, 27.9MB/s] 69%|██████▉   | 64.7M/93.6M [00:03<00:01, 28.3MB/s] 72%|███████▏  | 67.6M/93.6M [00:03<00:00, 27.9MB/s] 75%|███████▌  | 70.4M/93.6M [00:03<00:00, 27.5MB/s] 78%|███████▊  | 73.2M/93.6M [00:03<00:00, 27.4MB/s] 81%|████████▏ | 76.1M/93.6M [00:03<00:00, 27.5MB/s] 84%|████████▍ | 79.0M/93.6M [00:03<00:00, 27.5MB/s] 88%|████████▊ | 82.0M/93.6M [00:03<00:00, 27.6MB/s] 91%|█████████ | 85.0M/93.6M [00:03<00:00, 28.0MB/s] 94%|█████████▍| 88.0M/93.6M [00:03<00:00, 28.1MB/s] 97%|█████████▋| 90.8M/93.6M [00:04<00:00, 27.7MB/s]100%|██████████| 93.6M/93.6M [00:04<00:00, 21.0MB/s]
+/home/waris/.conda/envs/llm/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+WARNING flwr 2024-01-08 14:59:59,976 | fedavg.py:117 | 
+Setting `min_available_clients` lower than `min_fit_clients` or
+`min_evaluate_clients` can cause the server to fail when there are too few clients
+connected to the server. `min_available_clients` must be set to a value larger
+than or equal to the values of `min_fit_clients` and `min_evaluate_clients`.
+
+WARNING:flwr:
+Setting `min_available_clients` lower than `min_fit_clients` or
+`min_evaluate_clients` can cause the server to fail when there are too few clients
+connected to the server. `min_available_clients` must be set to a value larger
+than or equal to the values of `min_fit_clients` and `min_evaluate_clients`.
+
+INFO flwr 2024-01-08 14:59:59,978 | app.py:178 | Starting Flower simulation, config: ServerConfig(num_rounds=450, round_timeout=None)
+INFO:flwr:Starting Flower simulation, config: ServerConfig(num_rounds=450, round_timeout=None)
+2024-01-08 15:00:03,165	INFO worker.py:1724 -- Started a local Ray instance.
+INFO flwr 2024-01-08 15:00:04,491 | app.py:213 | Flower VCE: Ray initialized with resources: {'accelerator_type:A100': 1.0, 'node:__internal_head__': 1.0, 'CPU': 32.0, 'GPU': 2.0, 'memory': 1191564409856.0, 'object_store_memory': 200000000000.0, 'node:10.128.9.203': 1.0}
+INFO:flwr:Flower VCE: Ray initialized with resources: {'accelerator_type:A100': 1.0, 'node:__internal_head__': 1.0, 'CPU': 32.0, 'GPU': 2.0, 'memory': 1191564409856.0, 'object_store_memory': 200000000000.0, 'node:10.128.9.203': 1.0}
+INFO flwr 2024-01-08 15:00:04,491 | app.py:219 | Optimize your simulation with Flower VCE: https://flower.dev/docs/framework/how-to-run-simulations.html
+INFO:flwr:Optimize your simulation with Flower VCE: https://flower.dev/docs/framework/how-to-run-simulations.html
+INFO flwr 2024-01-08 15:00:04,491 | app.py:242 | Flower VCE: Resources for each Virtual Client: {'num_cpus': 3, 'num_gpus': 0.2}
+INFO:flwr:Flower VCE: Resources for each Virtual Client: {'num_cpus': 3, 'num_gpus': 0.2}
+INFO flwr 2024-01-08 15:00:04,503 | app.py:288 | Flower VCE: Creating VirtualClientEngineActorPool with 10 actors
+INFO:flwr:Flower VCE: Creating VirtualClientEngineActorPool with 10 actors
+INFO flwr 2024-01-08 15:00:04,503 | server.py:89 | Initializing global parameters
+INFO:flwr:Initializing global parameters
+INFO flwr 2024-01-08 15:00:04,503 | server.py:276 | Requesting initial parameters from one random client
+INFO:flwr:Requesting initial parameters from one random client
+INFO flwr 2024-01-08 15:00:12,621 | server.py:280 | Received initial parameters from one random client
+INFO:flwr:Received initial parameters from one random client
+INFO flwr 2024-01-08 15:00:12,622 | server.py:91 | Evaluating initial parameters
+INFO:flwr:Evaluating initial parameters
+INFO flwr 2024-01-08 15:00:50,463 | server.py:94 | initial parameters (loss, other metrics): None, {'val_ap': 0.749, 'val_f1': 0.743, 'test_f1': 0.74, 'val_precision': 0.635, 'test_precision': 0.632, 'val_recall': 0.896, 'test_recall': 0.893, 'val_accuracy': 0.763, 'test_accuracy': 0.747}
+INFO:flwr:initial parameters (loss, other metrics): None, {'val_ap': 0.749, 'val_f1': 0.743, 'test_f1': 0.74, 'val_precision': 0.635, 'test_precision': 0.632, 'val_recall': 0.896, 'test_recall': 0.893, 'val_accuracy': 0.763, 'test_accuracy': 0.747}
+INFO flwr 2024-01-08 15:00:50,465 | server.py:104 | FL starting
+INFO:flwr:FL starting
+DEBUG flwr 2024-01-08 15:00:50,465 | server.py:222 | fit_round 1: strategy sampled 10 clients (out of 20)
+DEBUG:flwr:fit_round 1: strategy sampled 10 clients (out of 20)
+DEBUG flwr 2024-01-08 15:04:24,578 | server.py:236 | fit_round 1 received 10 results and 0 failures
+DEBUG:flwr:fit_round 1 received 10 results and 0 failures
+WARNING flwr 2024-01-08 15:04:24,828 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+WARNING:flwr:No fit_metrics_aggregation_fn provided
+INFO flwr 2024-01-08 15:05:00,029 | server.py:125 | fit progress: (1, None, {'val_ap': 0.772, 'val_f1': 0.755, 'test_f1': 0.751, 'val_precision': 0.663, 'test_precision': 0.66, 'val_recall': 0.877, 'test_recall': 0.871, 'val_accuracy': 0.777, 'test_accuracy': 0.766}, 249.5639126310125)
+INFO:flwr:fit progress: (1, None, {'val_ap': 0.772, 'val_f1': 0.755, 'test_f1': 0.751, 'val_precision': 0.663, 'test_precision': 0.66, 'val_recall': 0.877, 'test_recall': 0.871, 'val_accuracy': 0.777, 'test_accuracy': 0.766}, 249.5639126310125)
+INFO flwr 2024-01-08 15:05:00,029 | server.py:171 | evaluate_round 1: no clients selected, cancel
+INFO:flwr:evaluate_round 1: no clients selected, cancel
+DEBUG flwr 2024-01-08 15:05:00,030 | server.py:222 | fit_round 2: strategy sampled 10 clients (out of 20)
+DEBUG:flwr:fit_round 2: strategy sampled 10 clients (out of 20)
+DEBUG flwr 2024-01-08 15:08:24,588 | server.py:236 | fit_round 2 received 10 results and 0 failures
+DEBUG:flwr:fit_round 2 received 10 results and 0 failures
+INFO flwr 2024-01-08 15:08:59,513 | server.py:125 | fit progress: (2, None, {'val_ap': 0.785, 'val_f1': 0.764, 'test_f1': 0.76, 'val_precision': 0.67, 'test_precision': 0.667, 'val_recall': 0.888, 'test_recall': 0.882, 'val_accuracy': 0.787, 'test_accuracy': 0.775}, 489.04815106652677)
+INFO:flwr:fit progress: (2, None, {'val_ap': 0.785, 'val_f1': 0.764, 'test_f1': 0.76, 'val_precision': 0.67, 'test_precision': 0.667, 'val_recall': 0.888, 'test_recall': 0.882, 'val_accuracy': 0.787, 'test_accuracy': 0.775}, 489.04815106652677)
+INFO flwr 2024-01-08 15:08:59,514 | server.py:171 | evaluate_round 2: no clients selected, cancel
+INFO:flwr:evaluate_round 2: no clients selected, cancel
+DEBUG flwr 2024-01-08 15:08:59,514 | server.py:222 | fit_round 3: strategy sampled 10 clients (out of 20)
+DEBUG:flwr:fit_round 3: strategy sampled 10 clients (out of 20)
+DEBUG flwr 2024-01-08 15:12:25,555 | server.py:236 | fit_round 3 received 10 results and 0 failures
+DEBUG:flwr:fit_round 3 received 10 results and 0 failures
+INFO flwr 2024-01-08 15:13:00,472 | server.py:125 | fit progress: (3, None, {'val_ap': 0.792, 'val_f1': 0.769, 'test_f1': 0.766, 'val_precision': 0.678, 'test_precision': 0.676, 'val_recall': 0.887, 'test_recall': 0.883, 'val_accuracy': 0.794, 'test_accuracy': 0.782}, 730.0071226935834)
+INFO:flwr:fit progress: (3, None, {'val_ap': 0.792, 'val_f1': 0.769, 'test_f1': 0.766, 'val_precision': 0.678, 'test_precision': 0.676, 'val_recall': 0.887, 'test_recall': 0.883, 'val_accuracy': 0.794, 'test_accuracy': 0.782}, 730.0071226935834)
+INFO flwr 2024-01-08 15:13:00,473 | server.py:171 | evaluate_round 3: no clients selected, cancel
+INFO:flwr:evaluate_round 3: no clients selected, cancel
+DEBUG flwr 2024-01-08 15:13:00,473 | server.py:222 | fit_round 4: strategy sampled 10 clients (out of 20)
+DEBUG:flwr:fit_round 4: strategy sampled 10 clients (out of 20)
+slurmstepd: error: *** JOB 1932164 ON tc-gpu003 CANCELLED AT 2024-01-08T15:13:58 ***

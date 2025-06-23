@@ -1,0 +1,25 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 4, in <module>
+    from flwr.server.strategy import FedAvg
+ModuleNotFoundError: No module named 'flwr'
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 4, in <module>
+    from flwr.server.strategy import FedAvg
+ModuleNotFoundError: No module named 'flwr'
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 4, in <module>
+    from flwr.server.strategy import FedAvg
+ModuleNotFoundError: No module named 'flwr'
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 4, in <module>
+    from flwr.server.strategy import FedAvg
+ModuleNotFoundError: No module named 'flwr'
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 4, in <module>
+    from flwr.server.strategy import FedAvg
+ModuleNotFoundError: No module named 'flwr'
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 4, in <module>
+    from flwr.server.strategy import FedAvg
+ModuleNotFoundError: No module named 'flwr'

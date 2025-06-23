@@ -1,0 +1,670 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/condabin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda-env
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/activate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/deactivate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /home/waris/.bashrc
+No action taken.
+/home/waris/.conda/envs/llm/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+WARNING flwr 2024-01-08 15:08:16,652 | fedavg.py:117 | 
+Setting `min_available_clients` lower than `min_fit_clients` or
+`min_evaluate_clients` can cause the server to fail when there are too few clients
+connected to the server. `min_available_clients` must be set to a value larger
+than or equal to the values of `min_fit_clients` and `min_evaluate_clients`.
+
+INFO flwr 2024-01-08 15:08:16,653 | app.py:178 | Starting Flower simulation, config: ServerConfig(num_rounds=450, round_timeout=None)
+2024-01-08 15:08:21,152	INFO worker.py:1724 -- Started a local Ray instance.
+INFO flwr 2024-01-08 15:08:22,472 | app.py:213 | Flower VCE: Ray initialized with resources: {'memory': 1149178956800.0, 'CPU': 32.0, 'node:__internal_head__': 1.0, 'accelerator_type:A100': 1.0, 'node:10.128.9.203': 1.0, 'object_store_memory': 200000000000.0, 'GPU': 2.0}
+INFO flwr 2024-01-08 15:08:22,472 | app.py:219 | Optimize your simulation with Flower VCE: https://flower.dev/docs/framework/how-to-run-simulations.html
+INFO flwr 2024-01-08 15:08:22,472 | app.py:242 | Flower VCE: Resources for each Virtual Client: {'num_cpus': 3, 'num_gpus': 0.2}
+INFO flwr 2024-01-08 15:08:22,485 | app.py:288 | Flower VCE: Creating VirtualClientEngineActorPool with 10 actors
+INFO flwr 2024-01-08 15:08:22,485 | server.py:89 | Initializing global parameters
+INFO flwr 2024-01-08 15:08:22,485 | server.py:276 | Requesting initial parameters from one random client
+[33m(raylet)[0m [2024-01-08 15:08:23,210 E 36348 36348] logging.cc:97: Unhandled exception: St12system_error. what(): Resource temporarily unavailable
+[33m(raylet)[0m E0108 15:08:23.221920537   36349 thd.cc:157]                           pthread_create failed: Resource temporarily unavailable
+[36m(pid=34673)[0m [2024-01-08 15:08:23,210 E 34673 34799] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[33m(raylet)[0m [2024-01-08 15:08:23,376 E 36348 36348] logging.cc:104: Stack trace: 
+[33m(raylet)[0m  /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfe925a) [0x2aaab335825a] ray::operator<<()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfeb998) [0x2aaab335a998] ray::TerminateHandler()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/bin/../lib/libstdc++.so.6(+0xb135a) [0x2aaab3c3e35a] __cxxabiv1::__terminate()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x559295) [0x2aaab28c8295] std::__throw_system_error()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImpl22InitializeSystemConfigEv+0xeb) [0x2aaab2b0726b] ray::core::CoreWorkerProcessImpl::InitializeSystemConfig()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImplC2ERKNS0_17CoreWorkerOptionsE+0x1d0) [0x2aaab2b08ec0] ray::core::CoreWorkerProcessImpl::CoreWorkerProcessImpl()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core17CoreWorkerProcess10InitializeERKNS0_17CoreWorkerOptionsE+0xcf) [0x2aaab2b0a3cf] ray::core::CoreWorkerProcess::Initialize()
+[33m(raylet)[0m ray::IDLE(_PyObject_MakeTpCall+0x191) [0x503921] _PyObject_MakeTpCall
+[33m(raylet)[0m ray::IDLE(_PyEval_EvalFrameDefault+0x6a3) [0x510f33] _PyEval_EvalFrameDefault
+[33m(raylet)[0m ray::IDLE() [0x5cb55a] _PyEval_Vector
+[33m(raylet)[0m ray::IDLE(PyEval_EvalCode+0x9f) [0x5cac2f] PyEval_EvalCode
+[33m(raylet)[0m ray::IDLE() [0x5ebcf7] run_eval_code_obj
+[33m(raylet)[0m ray::IDLE() [0x5e7890] run_mod
+[33m(raylet)[0m ray::IDLE() [0x5fc832] pyrun_file
+[33m(raylet)[0m ray::IDLE(_PyRun_SimpleFileObject+0x19f) [0x5fbbff] _PyRun_SimpleFileObject
+[33m(raylet)[0m ray::IDLE(_PyRun_AnyFileObject+0x43) [0x5fb923] _PyRun_AnyFileObject
+[33m(raylet)[0m ray::IDLE(Py_RunMain+0x2ee) [0x5f65ce] Py_RunMain
+[33m(raylet)[0m ray::IDLE(Py_BytesMain+0x39) [0x5bb3d9] Py_BytesMain
+[33m(raylet)[0m /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaaab616555] __libc_start_main
+[33m(raylet)[0m ray::IDLE() [0x5bb223]
+[33m(raylet)[0m *** SIGABRT received at time=1704744503 on cpu 74 ***
+[33m(raylet)[0m PC: @     0x2aaaab62a387  (unknown)  raise
+[33m(raylet)[0m     @     0x2aaaaacde630  1209495136  (unknown)
+[33m(raylet)[0m     @     0x2aaab3c3e580  (unknown)  (unknown)
+[33m(raylet)[0m [2024-01-08 15:08:23,376 E 36348 36348] logging.cc:361: *** SIGABRT received at time=1704744503 on cpu 74 ***
+[33m(raylet)[0m [2024-01-08 15:08:23,376 E 36348 36348] logging.cc:361: PC: @     0x2aaaab62a387  (unknown)  raise
+[33m(raylet)[0m [2024-01-08 15:08:23,376 E 36348 36348] logging.cc:361:     @     0x2aaaaacde630  1209495136  (unknown)
+[33m(raylet)[0m [2024-01-08 15:08:23,377 E 36348 36348] logging.cc:361:     @     0x2aaab3c3e580  (unknown)  (unknown)
+[33m(raylet)[0m Fatal Python error: Aborted
+[33m(raylet)[0m Stack (most recent call first):
+[33m(raylet)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/worker.py", line 2342 in connect
+[33m(raylet)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/workers/default_worker.py", line 247 in <module>
+[33m(raylet)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet (total: 7)
+[33m(raylet)[0m /home/waris/.conda/envs/llm/bin/../lib/libstdc++.so.6(__cxa_rethrow+0x4a) [0x2aaab3c3e6aa] __cxa_rethrow
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZNSt6vectorISt6threadSaIS0_EE17_M_realloc_insertIJMN3ray3rpc17ClientCallManagerEFviEPS6_RiEEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_+0x200) [0x2aaab2a63050] std::vector<>::_M_realloc_insert<>()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc17ClientCallManagerC2ER23instrumented_io_contextRKNS_9ClusterIDEil+0x229) [0x2aaab2a6def9] ray::rpc::ClientCallManager::ClientCallManager()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x110e330) [0x2aaab347d330] execute_native_thread_routine
+[33m(raylet)[0m /lib64/libpthread.so.0(+0x7ea5) [0x2aaaaacd6ea5] start_thread
+[33m(raylet)[0m /lib64/libc.so.6(clone+0x6d) [0x2aaaab6f2b0d] clone
+[33m(raylet)[0m     @     0x2aaab3c3e35a  1264572608  __cxxabiv1::__terminate()
+[33m(raylet)[0m [2024-01-08 15:08:23,506 E 36353 36623] logging.cc:361:     @     0x2aaab3c3e35a  1264572608  __cxxabiv1::__terminate()
+[33m(raylet)[0m [2024-01-08 15:08:23,649 E 34526 34526] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: Socket closed; RPC Error details: 
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x5574d0) [0x2aaab28c64d0] boost::throw_exception<>()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d557b) [0x2aaab344457b] boost::asio::detail::do_throw_error()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d5f9b) [0x2aaab3444f9b] boost::asio::detail::posix_thread::start_thread()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d63fc) [0x2aaab34453fc] boost::asio::thread_pool::thread_pool()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa14564) [0x2aaab2d83564] ray::rpc::(anonymous namespace)::_GetServerCallExecutor()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc21GetServerCallExecutorEv+0x9) [0x2aaab2d835f9] ray::rpc::GetServerCallExecutor()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZNSt17_Function_handlerIFvN3ray6StatusESt8functionIFvvEES4_EZNS0_3rpc14ServerCallImplINS6_24CoreWorkerServiceHandlerENS6_11ExitRequestENS6_9ExitReplyELNS6_8AuthTypeE0EE17HandleRequestImplEbEUlS1_S4_S4_E0_E9_M_invokeERKSt9_Any_dataOS1_OS4_SJ_+0xe2) [0x2aaab2aa4952] std::_Function_handler<>::_M_invoke()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker10HandleExitENS_3rpc11ExitRequestEPNS2_9ExitReplyESt8functionIFvNS_6StatusES6_IFvvEES9_EE+0x108) [0x2aaab2aeb758] ray::core::CoreWorker::HandleExit()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc14ServerCallImplINS0_24CoreWorkerServiceHandlerENS0_11ExitRequestENS0_9ExitReplyELNS0_8AuthTypeE0EE17HandleRequestImplEb+0xfe) [0x2aaab2adc1ae] ray::rpc::ServerCallImpl<>::HandleRequestImpl()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa25d4e) [0x2aaab2d94d4e] EventTracker::RecordExecution()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f13e) [0x2aaab2d8e13e] std::_Function_handler<>::_M_invoke()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f5b6) [0x2aaab2d8e5b6] boost::asio::detail::completion_handler<>::do_complete()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d2c0b) [0x2aaab3441c0b] boost::asio::detail::scheduler::do_run_one()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4589) [0x2aaab3443589] boost::asio::detail::scheduler::run()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4c92) [0x2aaab3443c92] boost::asio::io_context::run()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker12RunIOServiceEv+0xc9) [0x2aaab2ac2249] ray::core::CoreWorker::RunIOService()
+[36m(pid=34673)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xb12e60) [0x2aaab2e81e60] thread_proxy
+[36m(pid=34699)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet
+[36m(pid=34699)[0m  (total: 7)
+[36m(DefaultActor pid=36345)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x7cd52e) [0x2aaab2b3c52e] ray::core::InboundRequest::Accept()
+[36m(DefaultActor pid=36345)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x79e180) [0x2aaab2b0d180] ray::core::NormalSchedulingQueue::ScheduleRequests()
+[36m(DefaultActor pid=36345)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker20RunTaskExecutionLoopEv+0xcd) [0x2aaab2ac676d] ray::core::CoreWorker::RunTaskExecutionLoop()
+[36m(DefaultActor pid=36345)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImpl26RunWorkerTaskExecutionLoopEv+0x8c) [0x2aaab2b087ac] ray::core::CoreWorkerProcessImpl::RunWorkerTaskExecutionLoop()
+[36m(DefaultActor pid=36345)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core17CoreWorkerProcess20RunTaskExecutionLoopEv+0x1d) [0x2aaab2b0895d] ray::core::CoreWorkerProcess::RunTaskExecutionLoop()
+[36m(DefaultActor pid=36345)[0m ray::DefaultActor() [0x538af0] method_vectorcall_NOARGS
+[36m(DefaultActor pid=36345)[0m ray::DefaultActor(PyObject_Vectorcall+0x31) [0x51e0b1] PyObject_Vectorcall
+[36m(DefaultActor pid=36345)[0m ray::DefaultActor() [0x5cb55a] _PyEval_Vector
+[36m(DefaultActor pid=36345)[0m ray::DefaultActor() [0x5ebcf7] run_eval_code_obj
+[36m(DefaultActor pid=36345)[0m ray::DefaultActor() [0x5e7890] run_mod
+[36m(DefaultActor pid=36345)[0m ray::DefaultActor() [0x5fc832] pyrun_file
+[36m(DefaultActor pid=36345)[0m ray::DefaultActor() [0x5bb223]
+[36m(DefaultActor pid=36345)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/worker.py", line 847 in main_loop
+[36m(DefaultActor pid=36345)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet, grpc._cython.cygrpc, mkl._mklinit, mkl._py_mkl_service, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend (total: 24)
+[33m(raylet)[0m [2024-01-08 15:08:43,414 E 34526 34526] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: failed to connect to all addresses; last error: UNKNOWN: ipv4:10.128.9.203:38187: tcp handshaker shutdown; RPC Error details: 
+[33m(raylet)[0m [2024-01-08 15:08:23,399 E 36354 36645] logging.cc:97: Unhandled exception: St12system_error. what(): Resource temporarily unavailable[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[33m(raylet)[0m E0108 15:08:23.452922623   36355 thd.cc:157]                           pthread_create failed: Resource temporarily unavailable[32m [repeated 103x across cluster][0m
+[36m(pid=34701)[0m [2024-01-08 15:08:23,615 E 34701 36216] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11][32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m [2024-01-08 15:08:23,919 E 36347 36347] logging.cc:104: Stack trace: [32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m  /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfe925a) [0x2aaab335825a] ray::operator<<()[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfeb998) [0x2aaab335a998] ray::TerminateHandler()[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m [32m [repeated 198x across cluster][0m
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor(_PyEval_EvalFrameDefault+0x6a3) [0x510f33] _PyEval_EvalFrameDefault[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor(PyEval_EvalCode+0x9f) [0x5cac2f] PyEval_EvalCode[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor(_PyRun_SimpleFileObject+0x19f) [0x5fbbff] _PyRun_SimpleFileObject[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor(_PyRun_AnyFileObject+0x43) [0x5fb923] _PyRun_AnyFileObject[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor(Py_RunMain+0x2ee) [0x5f65ce] Py_RunMain[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor(Py_BytesMain+0x39) [0x5bb3d9] Py_BytesMain[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaaab616555] __libc_start_main[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m *** SIGABRT received at time=1704744503 on cpu 71 ***[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m PC: @     0x2aaaab62a387  (unknown)  raise[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m     @     0x2aaab3c3e35a  (unknown)  __cxxabiv1::__terminate()[32m [repeated 34x across cluster][0m
+[36m(DefaultActor pid=36347)[0m     @     0x2aaab3c3e580  (unknown)  (unknown)[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m [2024-01-08 15:08:23,919 E 36347 36347] logging.cc:361: *** SIGABRT received at time=1704744503 on cpu 71 ***[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m [2024-01-08 15:08:23,919 E 36347 36347] logging.cc:361: PC: @     0x2aaaab62a387  (unknown)  raise[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m [2024-01-08 15:08:23,919 E 36347 36347] logging.cc:361:     @     0x2aaab3c3e35a  (unknown)  __cxxabiv1::__terminate()[32m [repeated 34x across cluster][0m
+[36m(DefaultActor pid=36347)[0m [2024-01-08 15:08:23,920 E 36347 36347] logging.cc:361:     @     0x2aaab3c3e580  (unknown)  (unknown)[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m Fatal Python error: Aborted[32m [repeated 31x across cluster][0m
+[36m(DefaultActor pid=36347)[0m Stack (most recent call first):[32m [repeated 2x across cluster][0m
+[36m(DefaultActor pid=36347)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/workers/default_worker.py", line 282 in <module>[32m [repeated 2x across cluster][0m
+[36m(pid=34701)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet (total: 7)[32m [repeated 28x across cluster][0m
+[33m(raylet)[0m /home/waris/.conda/envs/llm/bin/../lib/libstdc++.so.6(__cxa_rethrow+0x4a) [0x2aaab3c3e6aa] __cxa_rethrow
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZNSt6vectorISt6threadSaIS0_EE17_M_realloc_insertIJMN3ray3rpc17ClientCallManagerEFviEPS6_RiEEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_+0x200) [0x2aaab2a63050] std::vector<>::_M_realloc_insert<>()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc17ClientCallManagerC2ER23instrumented_io_contextRKNS_9ClusterIDEil+0x229) [0x2aaab2a6def9] ray::rpc::ClientCallManager::ClientCallManager()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x110e330) [0x2aaab347d330] execute_native_thread_routine
+[36m(pid=34701)[0m /lib64/libpthread.so.0(+0x7ea5) [0x2aaaaacd6ea5] start_thread[32m [repeated 28x across cluster][0m
+[36m(pid=34701)[0m /lib64/libc.so.6(clone+0x6d) [0x2aaaab6f2b0d] clone[32m [repeated 28x across cluster][0m
+[36m(pid=34701)[0m     @     0x2aaab3c3e35a  515903072  __cxxabiv1::__terminate()[32m [repeated 28x across cluster][0m
+[36m(pid=34701)[0m [2024-01-08 15:08:23,900 E 34701 36216] logging.cc:361:     @     0x2aaab3c3e35a  515903072  __cxxabiv1::__terminate()[32m [repeated 28x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:08:23,911 E 34526 34526] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: Socket closed; RPC Error details: [32m [repeated 26x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x5574d0) [0x2aaab28c64d0] boost::throw_exception<>()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d557b) [0x2aaab344457b] boost::asio::detail::do_throw_error()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d5f9b) [0x2aaab3444f9b] boost::asio::detail::posix_thread::start_thread()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d63fc) [0x2aaab34453fc] boost::asio::thread_pool::thread_pool()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa14564) [0x2aaab2d83564] ray::rpc::(anonymous namespace)::_GetServerCallExecutor()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc21GetServerCallExecutorEv+0x9) [0x2aaab2d835f9] ray::rpc::GetServerCallExecutor()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f13e) [0x2aaab2d8e13e] std::_Function_handler<>::_M_invoke()[32m [repeated 58x across cluster][0m
+[36m(pid=34701)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker10HandleExitENS_3rpc11ExitRequestEPNS2_9ExitReplyESt8functionIFvNS_6StatusES6_IFvvEES9_EE+0x108) [0x2aaab2aeb758] ray::core::CoreWorker::HandleExit()[32m [repeated 26x across cluster][0m
+[36m(pid=34701)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc14ServerCallImplINS0_24CoreWorkerServiceHandlerENS0_11ExitRequestENS0_9ExitReplyELNS0_8AuthTypeE0EE17HandleRequestImplEb+0xfe) [0x2aaab2adc1ae] ray::rpc::ServerCallImpl<>::HandleRequestImpl()[32m [repeated 26x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa25d4e) [0x2aaab2d94d4e] EventTracker::RecordExecution()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f5b6) [0x2aaab2d8e5b6] boost::asio::detail::completion_handler<>::do_complete()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d2c0b) [0x2aaab3441c0b] boost::asio::detail::scheduler::do_run_one()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4589) [0x2aaab3443589] boost::asio::detail::scheduler::run()[32m [repeated 28x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4c92) [0x2aaab3443c92] boost::asio::io_context::run()[32m [repeated 28x across cluster][0m
+[36m(pid=34701)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker12RunIOServiceEv+0xc9) [0x2aaab2ac2249] ray::core::CoreWorker::RunIOService()[32m [repeated 26x across cluster][0m
+[36m(pid=34701)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xb12e60) [0x2aaab2e81e60] thread_proxy[32m [repeated 26x across cluster][0m
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x7cd52e) [0x2aaab2b3c52e] ray::core::InboundRequest::Accept()
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x79e180) [0x2aaab2b0d180] ray::core::NormalSchedulingQueue::ScheduleRequests()
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker20RunTaskExecutionLoopEv+0xcd) [0x2aaab2ac676d] ray::core::CoreWorker::RunTaskExecutionLoop()
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImpl26RunWorkerTaskExecutionLoopEv+0x8c) [0x2aaab2b087ac] ray::core::CoreWorkerProcessImpl::RunWorkerTaskExecutionLoop()
+[36m(DefaultActor pid=36347)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core17CoreWorkerProcess20RunTaskExecutionLoopEv+0x1d) [0x2aaab2b0895d] ray::core::CoreWorkerProcess::RunTaskExecutionLoop()
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor() [0x538af0] method_vectorcall_NOARGS
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor(PyObject_Vectorcall+0x31) [0x51e0b1] PyObject_Vectorcall
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor() [0x5cb55a] _PyEval_Vector
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor() [0x5ebcf7] run_eval_code_obj
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor() [0x5e7890] run_mod
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor() [0x5fc832] pyrun_file
+[36m(DefaultActor pid=36347)[0m ray::DefaultActor() [0x5bb223]
+[36m(DefaultActor pid=36347)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/worker.py", line 847 in main_loop
+[36m(DefaultActor pid=36347)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet, grpc._cython.cygrpc, mkl._mklinit, mkl._py_mkl_service, numpy.core._multiarray_umath, numpy.core._multiarray_tests, numpy.linalg._umath_linalg, numpy.fft._pocketfft_internal, numpy.random._common, numpy.random.bit_generator, numpy.random._bounded_integers, numpy.random._mt19937, numpy.random.mtrand, numpy.random._philox, numpy.random._pcg64, numpy.random._sfc64, numpy.random._generator, _cffi_backend (total: 24)
+[33m(raylet)[0m [2024-01-08 15:09:22,567 E 34526 34526] (raylet) worker_pool.cc:553: Some workers of the worker process(36348) have not registered within the timeout. The process is dead, probably it crashed during start.
+[33m(raylet)[0m [2024-01-08 15:09:22,603 E 34526 34526] (raylet) worker_pool.cc:553: Some workers of the worker process(36349) have not registered within the timeout. The process is still alive, probably it's hanging during start.
+[33m(raylet)[0m [2024-01-08 15:08:43,615 E 34526 34526] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: failed to connect to all addresses; last error: UNKNOWN: ipv4:10.128.9.203:35054: tcp handshaker shutdown; RPC Error details: 
+[33m(raylet)[0m [2024-01-08 15:09:22,774 E 34526 34526] (raylet) worker_pool.cc:553: Some workers of the worker process(36354) have not registered within the timeout. The process is dead, probably it crashed during start.[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:10:22,646 E 34526 34526] (raylet) worker_pool.cc:553: Some workers of the worker process(36840) have not registered within the timeout. The process is still alive, probably it's hanging during start.[32m [repeated 5x across cluster][0m
+ERROR flwr 2024-01-08 15:10:28,081 | ray_client_proxy.py:145 | Traceback (most recent call last):
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 138, in _submit_job
+    res = self.actor_pool.get_client_result(self.cid, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 408, in get_client_result
+    self.process_unordered_future(timeout=timeout)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 390, in process_unordered_future
+    if self._check_actor_fits_in_pool():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 353, in _check_actor_fits_in_pool
+    num_actors_updated = pool_size_from_resources(self.client_resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 146, in pool_size_from_resources
+    "The ActorPool is empty. The system (CPUs=%s, GPUs=%s) "
+UnboundLocalError: cannot access local variable 'num_cpus' where it is not associated with a value
+
+ERROR flwr 2024-01-08 15:10:28,081 | ray_client_proxy.py:146 | cannot access local variable 'num_cpus' where it is not associated with a value
+ERROR flwr 2024-01-08 15:10:28,081 | app.py:313 | cannot access local variable 'num_cpus' where it is not associated with a value
+ERROR flwr 2024-01-08 15:10:28,090 | app.py:314 | Traceback (most recent call last):
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/app.py", line 308, in start_simulation
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/app.py", line 225, in run_fl
+    hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 90, in fit
+    self.parameters = self._get_initial_parameters(timeout=timeout)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 279, in _get_initial_parameters
+    get_parameters_res = random_client.get_parameters(ins=ins, timeout=timeout)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 180, in get_parameters
+    res = self._submit_job(get_parameters, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 147, in _submit_job
+    raise ex
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 138, in _submit_job
+    res = self.actor_pool.get_client_result(self.cid, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 408, in get_client_result
+    self.process_unordered_future(timeout=timeout)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 390, in process_unordered_future
+    if self._check_actor_fits_in_pool():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 353, in _check_actor_fits_in_pool
+    num_actors_updated = pool_size_from_resources(self.client_resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 146, in pool_size_from_resources
+    "The ActorPool is empty. The system (CPUs=%s, GPUs=%s) "
+UnboundLocalError: cannot access local variable 'num_cpus' where it is not associated with a value
+
+ERROR flwr 2024-01-08 15:10:28,090 | app.py:315 | Your simulation crashed :(. This could be because of several reasons.The most common are: 
+	 > Your system couldn't fit a single VirtualClient: try lowering `client_resources`.
+	 > All the actors in your pool crashed. This could be because: 
+		 - You clients hit an out-of-memory (OOM) error and actors couldn't recover from it. Try launching your simulation with more generous `client_resources` setting (i.e. it seems {'num_cpus': 3, 'num_gpus': 0.2} is not enough for your workload). Use fewer concurrent actors. 
+		 - You were running a multi-node simulation and all worker nodes disconnected. The head node might still be alive but cannot accommodate any actor with resources: {'num_cpus': 3, 'num_gpus': 0.2}.
+Starting Simulation ..
+> Hit: Dataset Distribution found in cache: quora-20-64
+Experiment Key: tname-paraphrase-MiniLM-L3-v2-dname-quora-clients_per_round-10-num_clients-20-batch_size-64-device-cuda-client_epochs-1-num_rounds-450-
+> Starting Simulation ..
+[33m(raylet)[0m A worker died or was killed while executing a task by an unexpected system error. To troubleshoot the problem, check the logs for the dead worker. RayTask ID: ffffffffffffffffb3632a889b8bf1098243d9ed01000000 Worker ID: 22d051702580716f69056fb8f5b7031936f1bcbf60879bf449dd582e Node ID: 152b10ba5c21342a35ba85fd83bf1febd8c7106edb43559550d28c13 Worker IP address: 10.128.9.203 Worker port: 42993 Worker PID: 36345 Worker exit type: SYSTEM_ERROR Worker exit detail: Worker unexpectedly exits with a connection error code 2. End of file. There are some potential root causes. (1) The process is killed by SIGKILL by OOM killer due to high memory usage. (2) ray stop --force is called. (3) The worker is crashed unexpectedly due to SIGSEGV or other unexpected errors.
+[33m(raylet)[0m The node with node id: 152b10ba5c21342a35ba85fd83bf1febd8c7106edb43559550d28c13 and address: 10.128.9.203 and node name: 10.128.9.203 has been marked dead because the detector has missed too many heartbeats from it. This can happen when a 	(1) raylet crashes unexpectedly (OOM, preempted node, etc.) 
+	(2) raylet has lagging heartbeats due to slow network or busy workload.
+[33m(raylet)[0m A worker died or was killed while executing a task by an unexpected system error. To troubleshoot the problem, check the logs for the dead worker. RayTask ID: ffffffffffffffff8ecc2b73b229da5c3e41d7f901000000 Worker ID: 9427a1da28fce802ea002560bba771482d4792eecf43baea461c8d08 Node ID: 152b10ba5c21342a35ba85fd83bf1febd8c7106edb43559550d28c13 Worker IP address: 10.128.9.203 Worker port: 38377 Worker PID: 36347 Worker exit type: SYSTEM_ERROR Worker exit detail: Worker unexpectedly exits with a connection error code 2. End of file. There are some potential root causes. (1) The process is killed by SIGKILL by OOM killer due to high memory usage. (2) ray stop --force is called. (3) The worker is crashed unexpectedly due to SIGSEGV or other unexpected errors.
+Traceback (most recent call last):
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/app.py", line 308, in start_simulation
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/app.py", line 225, in run_fl
+    hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 90, in fit
+    self.parameters = self._get_initial_parameters(timeout=timeout)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 279, in _get_initial_parameters
+    get_parameters_res = random_client.get_parameters(ins=ins, timeout=timeout)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 180, in get_parameters
+    res = self._submit_job(get_parameters, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 147, in _submit_job
+    raise ex
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 138, in _submit_job
+    res = self.actor_pool.get_client_result(self.cid, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 408, in get_client_result
+    self.process_unordered_future(timeout=timeout)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 390, in process_unordered_future
+    if self._check_actor_fits_in_pool():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 353, in _check_actor_fits_in_pool
+    num_actors_updated = pool_size_from_resources(self.client_resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 146, in pool_size_from_resources
+    "The ActorPool is empty. The system (CPUs=%s, GPUs=%s) "
+UnboundLocalError: cannot access local variable 'num_cpus' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 164, in <module>
+    fire.Fire(main)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 155, in main
+    sim.run()
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 90, in run
+    fl.simulation.start_simulation(
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/app.py", line 332, in start_simulation
+    raise RuntimeError("Simulation crashed.") from ex
+RuntimeError: Simulation crashed.
+/home/waris/.conda/envs/llm/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+WARNING flwr 2024-01-08 15:11:05,536 | fedavg.py:117 | 
+Setting `min_available_clients` lower than `min_fit_clients` or
+`min_evaluate_clients` can cause the server to fail when there are too few clients
+connected to the server. `min_available_clients` must be set to a value larger
+than or equal to the values of `min_fit_clients` and `min_evaluate_clients`.
+
+INFO flwr 2024-01-08 15:11:05,538 | app.py:178 | Starting Flower simulation, config: ServerConfig(num_rounds=450, round_timeout=None)
+2024-01-08 15:11:08,223	INFO worker.py:1724 -- Started a local Ray instance.
+INFO flwr 2024-01-08 15:11:09,503 | app.py:213 | Flower VCE: Ray initialized with resources: {'accelerator_type:A100': 1.0, 'GPU': 2.0, 'CPU': 32.0, 'object_store_memory': 200000000000.0, 'node:10.128.9.203': 1.0, 'memory': 1148750228480.0, 'node:__internal_head__': 1.0}
+INFO flwr 2024-01-08 15:11:09,504 | app.py:219 | Optimize your simulation with Flower VCE: https://flower.dev/docs/framework/how-to-run-simulations.html
+INFO flwr 2024-01-08 15:11:09,504 | app.py:242 | Flower VCE: Resources for each Virtual Client: {'num_cpus': 3, 'num_gpus': 0.2}
+INFO flwr 2024-01-08 15:11:09,516 | app.py:288 | Flower VCE: Creating VirtualClientEngineActorPool with 10 actors
+INFO flwr 2024-01-08 15:11:09,516 | server.py:89 | Initializing global parameters
+INFO flwr 2024-01-08 15:11:09,516 | server.py:276 | Requesting initial parameters from one random client
+[33m(raylet)[0m E0108 15:11:10.235285597   39827 thd.cc:157]                           pthread_create failed: Resource temporarily unavailable
+[33m(raylet)[0m E0108 15:11:10.235490049   39827 thread_manager.cc:44]                 Could not create grpc_sync_server worker-thread
+[33m(raylet)[0m E0108 15:11:10.235496100   39827 thread_manager.cc:146]                ASSERTION FAILED: worker->created()
+[33m(raylet)[0m *** SIGABRT received at time=1704744670 on cpu 60 ***
+[33m(raylet)[0m PC: @     0x2aaaab62a387  (unknown)  raise
+[33m(raylet)[0m     @     0x2aaaaacde630  1209493072  (unknown)
+[33m(raylet)[0m     @     0x2aaab332e420        176  gpr_assertion_failed
+[33m(raylet)[0m     @     0x2aaab2eacda8         96  grpc::ThreadManager::Initialize()
+[33m(raylet)[0m     @     0x2aaab2e9d04f        144  grpc::Server::Start()
+[33m(raylet)[0m     @     0x2aaab2ea33d9        240  grpc::ServerBuilder::BuildAndStart()
+[33m(raylet)[0m     @     0x2aaab2d856a2        544  ray::rpc::GrpcServer::Run()
+[33m(raylet)[0m     @     0x2aaab2b03064       1168  ray::core::CoreWorker::CoreWorker()
+[33m(raylet)[0m     @     0x2aaab2b0928f        624  ray::core::CoreWorkerProcessImpl::CoreWorkerProcessImpl()
+[36m(pid=38134)[0m [2024-01-08 15:11:10,238 E 38134 38254] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[33m(raylet)[0m     @     0x2aaab2b0a3cf         80  ray::core::CoreWorkerProcess::Initialize()
+[33m(raylet)[0m     @     0x2aaab29ce3df       2016  __pyx_pw_3ray_7_raylet_10CoreWorker_1__cinit__()
+[33m(raylet)[0m     @           0x503921  (unknown)  _PyObject_MakeTpCall
+[33m(raylet)[0m     @           0x866f40  (unknown)  (unknown)
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361: *** SIGABRT received at time=1704744670 on cpu 60 ***
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361: PC: @     0x2aaaab62a387  (unknown)  raise
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaaaacde630  1209493072  (unknown)
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab332e420        176  gpr_assertion_failed
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab2eacda8         96  grpc::ThreadManager::Initialize()
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab2e9d04f        144  grpc::Server::Start()
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab2ea33d9        240  grpc::ServerBuilder::BuildAndStart()
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab2d856a2        544  ray::rpc::GrpcServer::Run()
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab2b03064       1168  ray::core::CoreWorker::CoreWorker()
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab2b0928f        624  ray::core::CoreWorkerProcessImpl::CoreWorkerProcessImpl()
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab2b0a3cf         80  ray::core::CoreWorkerProcess::Initialize()
+[33m(raylet)[0m [2024-01-08 15:11:10,297 E 39827 39827] logging.cc:361:     @     0x2aaab29ce3df       2016  __pyx_pw_3ray_7_raylet_10CoreWorker_1__cinit__()
+[33m(raylet)[0m [2024-01-08 15:11:10,298 E 39827 39827] logging.cc:361:     @           0x503921  (unknown)  _PyObject_MakeTpCall
+[33m(raylet)[0m [2024-01-08 15:11:10,298 E 39827 39827] logging.cc:361:     @           0x866f40  (unknown)  (unknown)
+[33m(raylet)[0m Fatal Python error: Aborted
+[33m(raylet)[0m 
+[33m(raylet)[0m Stack (most recent call first):
+[33m(raylet)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/worker.py", line 2342 in connect
+[33m(raylet)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/workers/default_worker.py", line 247 in <module>
+[33m(raylet)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet (total: 7)
+[33m(raylet)[0m [2024-01-08 15:11:10,518 E 38010 38010] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: Socket closed; RPC Error details: 
+[36m(pid=38134)[0m [2024-01-08 15:11:10,507 E 38134 38254] logging.cc:104: Stack trace: 
+[36m(pid=38134)[0m  /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfe925a) [0x2aaab335825a] ray::operator<<()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfeb998) [0x2aaab335a998] ray::TerminateHandler()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x5574d0) [0x2aaab28c64d0] boost::throw_exception<>()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d557b) [0x2aaab344457b] boost::asio::detail::do_throw_error()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d5f9b) [0x2aaab3444f9b] boost::asio::detail::posix_thread::start_thread()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d63fc) [0x2aaab34453fc] boost::asio::thread_pool::thread_pool()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa14564) [0x2aaab2d83564] ray::rpc::(anonymous namespace)::_GetServerCallExecutor()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc21GetServerCallExecutorEv+0x9) [0x2aaab2d835f9] ray::rpc::GetServerCallExecutor()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZNSt17_Function_handlerIFvN3ray6StatusESt8functionIFvvEES4_EZNS0_3rpc14ServerCallImplINS6_24CoreWorkerServiceHandlerENS6_11ExitRequestENS6_9ExitReplyELNS6_8AuthTypeE0EE17HandleRequestImplEbEUlS1_S4_S4_E0_E9_M_invokeERKSt9_Any_dataOS1_OS4_SJ_+0xe2) [0x2aaab2aa4952] std::_Function_handler<>::_M_invoke()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker10HandleExitENS_3rpc11ExitRequestEPNS2_9ExitReplyESt8functionIFvNS_6StatusES6_IFvvEES9_EE+0x108) [0x2aaab2aeb758] ray::core::CoreWorker::HandleExit()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc14ServerCallImplINS0_24CoreWorkerServiceHandlerENS0_11ExitRequestENS0_9ExitReplyELNS0_8AuthTypeE0EE17HandleRequestImplEb+0xfe) [0x2aaab2adc1ae] ray::rpc::ServerCallImpl<>::HandleRequestImpl()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa25d4e) [0x2aaab2d94d4e] EventTracker::RecordExecution()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f13e) [0x2aaab2d8e13e] std::_Function_handler<>::_M_invoke()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f5b6) [0x2aaab2d8e5b6] boost::asio::detail::completion_handler<>::do_complete()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d2c0b) [0x2aaab3441c0b] boost::asio::detail::scheduler::do_run_one()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4589) [0x2aaab3443589] boost::asio::detail::scheduler::run()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4c92) [0x2aaab3443c92] boost::asio::io_context::run()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker12RunIOServiceEv+0xc9) [0x2aaab2ac2249] ray::core::CoreWorker::RunIOService()
+[36m(pid=38134)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xb12e60) [0x2aaab2e81e60] thread_proxy
+[36m(pid=38134)[0m /lib64/libpthread.so.0(+0x7ea5) [0x2aaaaacd6ea5] start_thread
+[36m(pid=38134)[0m /lib64/libc.so.6(clone+0x6d) [0x2aaaab6f2b0d] clone
+[33m(raylet)[0m [2024-01-08 15:11:30,442 E 38010 38010] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: failed to connect to all addresses; last error: UNKNOWN: ipv4:10.128.9.203:38308: tcp handshaker shutdown; RPC Error details: 
+[33m(raylet)[0m E0108 15:11:10.500528041   39834 thd.cc:157]                           pthread_create failed: Resource temporarily unavailable[32m [repeated 152x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[33m(raylet)[0m E0108 15:11:10.500532950   39834 thread_manager.cc:44]                 Could not create grpc_sync_server worker-thread[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m E0108 15:11:10.500539152   39834 thread_manager.cc:146]                ASSERTION FAILED: worker->created()[32m [repeated 2x across cluster][0m
+[36m(pid=38158)[0m *** SIGABRT received at time=1704744670 on cpu 40 ***[32m [repeated 22x across cluster][0m
+[36m(pid=38158)[0m PC: @     0x2aaaab62a387  (unknown)  raise[32m [repeated 22x across cluster][0m
+[36m(pid=38158)[0m     @     0x2aaaaacde630       1888  (unknown)[32m [repeated 22x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab332e420        176  gpr_assertion_failed[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab2eacda8         96  grpc::ThreadManager::Initialize()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab2e9d04f        144  grpc::Server::Start()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab2ea33d9        240  grpc::ServerBuilder::BuildAndStart()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab2d856a2        544  ray::rpc::GrpcServer::Run()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab2b03064       1168  ray::core::CoreWorker::CoreWorker()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab2b0928f        624  ray::core::CoreWorkerProcessImpl::CoreWorkerProcessImpl()[32m [repeated 2x across cluster][0m
+[36m(pid=38158)[0m [2024-01-08 15:11:10,447 E 38158 39406] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11][32m [repeated 19x across cluster][0m
+[33m(raylet)[0m     @     0x2aaab2b0a3cf         80  ray::core::CoreWorkerProcess::Initialize()[32m [repeated 2x across cluster][0m
+[36m(pid=38158)[0m     @     0x2aaab3c3e35a  515903072  __cxxabiv1::__terminate()[32m [repeated 25x across cluster][0m
+[33m(raylet)[0m     @           0x503921  (unknown)  _PyObject_MakeTpCall[32m [repeated 2x across cluster][0m
+[36m(pid=38158)[0m     @     0x2aaab3c3e580  (unknown)  (unknown)[32m [repeated 22x across cluster][0m
+[36m(pid=38158)[0m [2024-01-08 15:11:10,718 E 38158 39406] logging.cc:361: *** SIGABRT received at time=1704744670 on cpu 40 ***[32m [repeated 22x across cluster][0m
+[36m(pid=38158)[0m [2024-01-08 15:11:10,718 E 38158 39406] logging.cc:361: PC: @     0x2aaaab62a387  (unknown)  raise[32m [repeated 22x across cluster][0m
+[36m(pid=38158)[0m [2024-01-08 15:11:10,718 E 38158 39406] logging.cc:361:     @     0x2aaaaacde630       1888  (unknown)[32m [repeated 22x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab332e420        176  gpr_assertion_failed[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab2eacda8         96  grpc::ThreadManager::Initialize()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab2e9d04f        144  grpc::Server::Start()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab2ea33d9        240  grpc::ServerBuilder::BuildAndStart()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab2d856a2        544  ray::rpc::GrpcServer::Run()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab2b03064       1168  ray::core::CoreWorker::CoreWorker()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab2b0928f        624  ray::core::CoreWorkerProcessImpl::CoreWorkerProcessImpl()[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @     0x2aaab2b0a3cf         80  ray::core::CoreWorkerProcess::Initialize()[32m [repeated 2x across cluster][0m
+[36m(pid=38158)[0m [2024-01-08 15:11:10,718 E 38158 39406] logging.cc:361:     @     0x2aaab3c3e35a  515903072  __cxxabiv1::__terminate()[32m [repeated 25x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,640 E 39834 39834] logging.cc:361:     @           0x503921  (unknown)  _PyObject_MakeTpCall[32m [repeated 2x across cluster][0m
+[36m(pid=38158)[0m [2024-01-08 15:11:10,718 E 38158 39406] logging.cc:361:     @     0x2aaab3c3e580  (unknown)  (unknown)[32m [repeated 22x across cluster][0m
+[36m(pid=38158)[0m Fatal Python error: Aborted[32m [repeated 22x across cluster][0m
+[36m(pid=38158)[0m [32m [repeated 125x across cluster][0m
+[33m(raylet)[0m Stack (most recent call first):[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/worker.py", line 2342 in connect[32m [repeated 2x across cluster][0m
+[33m(raylet)[0m   File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/workers/default_worker.py", line 247 in <module>[32m [repeated 2x across cluster][0m
+[36m(pid=38158)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet (total: 7)[32m [repeated 22x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:11:10,742 E 38010 38010] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: Socket closed; RPC Error details: [32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m [2024-01-08 15:11:10,717 E 38158 39406] logging.cc:104: Stack trace: [32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m  /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfe925a) [0x2aaab335825a] ray::operator<<()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfeb998) [0x2aaab335a998] ray::TerminateHandler()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x5574d0) [0x2aaab28c64d0] boost::throw_exception<>()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d557b) [0x2aaab344457b] boost::asio::detail::do_throw_error()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d5f9b) [0x2aaab3444f9b] boost::asio::detail::posix_thread::start_thread()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d63fc) [0x2aaab34453fc] boost::asio::thread_pool::thread_pool()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa14564) [0x2aaab2d83564] ray::rpc::(anonymous namespace)::_GetServerCallExecutor()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc21GetServerCallExecutorEv+0x9) [0x2aaab2d835f9] ray::rpc::GetServerCallExecutor()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f13e) [0x2aaab2d8e13e] std::_Function_handler<>::_M_invoke()[32m [repeated 38x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker10HandleExitENS_3rpc11ExitRequestEPNS2_9ExitReplyESt8functionIFvNS_6StatusES6_IFvvEES9_EE+0x108) [0x2aaab2aeb758] ray::core::CoreWorker::HandleExit()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc14ServerCallImplINS0_24CoreWorkerServiceHandlerENS0_11ExitRequestENS0_9ExitReplyELNS0_8AuthTypeE0EE17HandleRequestImplEb+0xfe) [0x2aaab2adc1ae] ray::rpc::ServerCallImpl<>::HandleRequestImpl()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa25d4e) [0x2aaab2d94d4e] EventTracker::RecordExecution()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f5b6) [0x2aaab2d8e5b6] boost::asio::detail::completion_handler<>::do_complete()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d2c0b) [0x2aaab3441c0b] boost::asio::detail::scheduler::do_run_one()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4589) [0x2aaab3443589] boost::asio::detail::scheduler::run()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4c92) [0x2aaab3443c92] boost::asio::io_context::run()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker12RunIOServiceEv+0xc9) [0x2aaab2ac2249] ray::core::CoreWorker::RunIOService()[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xb12e60) [0x2aaab2e81e60] thread_proxy[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /lib64/libpthread.so.0(+0x7ea5) [0x2aaaaacd6ea5] start_thread[32m [repeated 19x across cluster][0m
+[36m(pid=38158)[0m /lib64/libc.so.6(clone+0x6d) [0x2aaaab6f2b0d] clone[32m [repeated 19x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:12:09,639 E 38010 38010] (raylet) worker_pool.cc:553: Some workers of the worker process(39828) have not registered within the timeout. The process is still alive, probably it's hanging during start.
+[33m(raylet)[0m [2024-01-08 15:11:30,644 E 38010 38010] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: failed to connect to all addresses; last error: UNKNOWN: ipv4:10.128.9.203:43075: tcp handshaker shutdown; RPC Error details: [32m [repeated 8x across cluster][0m
+ERROR flwr 2024-01-08 15:12:18,162 | ray_client_proxy.py:145 | Traceback (most recent call last):
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 138, in _submit_job
+    res = self.actor_pool.get_client_result(self.cid, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 408, in get_client_result
+    self.process_unordered_future(timeout=timeout)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 390, in process_unordered_future
+    if self._check_actor_fits_in_pool():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 353, in _check_actor_fits_in_pool
+    num_actors_updated = pool_size_from_resources(self.client_resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 146, in pool_size_from_resources
+    "The ActorPool is empty. The system (CPUs=%s, GPUs=%s) "
+UnboundLocalError: cannot access local variable 'num_cpus' where it is not associated with a value
+
+ERROR flwr 2024-01-08 15:12:18,162 | ray_client_proxy.py:146 | cannot access local variable 'num_cpus' where it is not associated with a value
+ERROR flwr 2024-01-08 15:12:18,162 | app.py:313 | cannot access local variable 'num_cpus' where it is not associated with a value
+ERROR flwr 2024-01-08 15:12:18,167 | app.py:314 | Traceback (most recent call last):
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/app.py", line 308, in start_simulation
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/app.py", line 225, in run_fl
+    hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 90, in fit
+    self.parameters = self._get_initial_parameters(timeout=timeout)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 279, in _get_initial_parameters
+    get_parameters_res = random_client.get_parameters(ins=ins, timeout=timeout)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 180, in get_parameters
+    res = self._submit_job(get_parameters, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 147, in _submit_job
+    raise ex
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 138, in _submit_job
+    res = self.actor_pool.get_client_result(self.cid, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 408, in get_client_result
+    self.process_unordered_future(timeout=timeout)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 390, in process_unordered_future
+    if self._check_actor_fits_in_pool():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 353, in _check_actor_fits_in_pool
+    num_actors_updated = pool_size_from_resources(self.client_resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 146, in pool_size_from_resources
+    "The ActorPool is empty. The system (CPUs=%s, GPUs=%s) "
+UnboundLocalError: cannot access local variable 'num_cpus' where it is not associated with a value
+
+ERROR flwr 2024-01-08 15:12:18,167 | app.py:315 | Your simulation crashed :(. This could be because of several reasons.The most common are: 
+	 > Your system couldn't fit a single VirtualClient: try lowering `client_resources`.
+	 > All the actors in your pool crashed. This could be because: 
+		 - You clients hit an out-of-memory (OOM) error and actors couldn't recover from it. Try launching your simulation with more generous `client_resources` setting (i.e. it seems {'num_cpus': 3, 'num_gpus': 0.2} is not enough for your workload). Use fewer concurrent actors. 
+		 - You were running a multi-node simulation and all worker nodes disconnected. The head node might still be alive but cannot accommodate any actor with resources: {'num_cpus': 3, 'num_gpus': 0.2}.
+Starting Simulation ..
+> Miss: Dataset Distribution saved to cache: quora-50-64
+Experiment Key: tname-paraphrase-MiniLM-L3-v2-dname-quora-clients_per_round-10-num_clients-50-batch_size-64-device-cuda-client_epochs-1-num_rounds-450-
+> Starting Simulation ..
+[33m(raylet)[0m The node with node id: 25dc765425c9709b93bae17d615e3afe16103f4b38c27e4807f322f5 and address: 10.128.9.203 and node name: 10.128.9.203 has been marked dead because the detector has missed too many heartbeats from it. This can happen when a 	(1) raylet crashes unexpectedly (OOM, preempted node, etc.) 
+	(2) raylet has lagging heartbeats due to slow network or busy workload.
+Traceback (most recent call last):
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/app.py", line 308, in start_simulation
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/app.py", line 225, in run_fl
+    hist = server.fit(num_rounds=config.num_rounds, timeout=config.round_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 90, in fit
+    self.parameters = self._get_initial_parameters(timeout=timeout)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/server/server.py", line 279, in _get_initial_parameters
+    get_parameters_res = random_client.get_parameters(ins=ins, timeout=timeout)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 180, in get_parameters
+    res = self._submit_job(get_parameters, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 147, in _submit_job
+    raise ex
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 138, in _submit_job
+    res = self.actor_pool.get_client_result(self.cid, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 408, in get_client_result
+    self.process_unordered_future(timeout=timeout)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 390, in process_unordered_future
+    if self._check_actor_fits_in_pool():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 353, in _check_actor_fits_in_pool
+    num_actors_updated = pool_size_from_resources(self.client_resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 146, in pool_size_from_resources
+    "The ActorPool is empty. The system (CPUs=%s, GPUs=%s) "
+UnboundLocalError: cannot access local variable 'num_cpus' where it is not associated with a value
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 164, in <module>
+    fire.Fire(main)
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 155, in main
+    sim.run()
+  File "/home/waris/Github/fl-gptcache/fl_sim_train.py", line 90, in run
+    fl.simulation.start_simulation(
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/app.py", line 332, in start_simulation
+    raise RuntimeError("Simulation crashed.") from ex
+RuntimeError: Simulation crashed.
+[33m(raylet)[0m [2024-01-08 15:12:18,181 C 38010 38010] (raylet) node_manager.cc:1022: [Timeout] Exiting because this node manager has mistakenly been marked as dead by the GCS: GCS failed to check the health of this node for 5 times. This is likely because the machine or raylet has become overloaded.
+[33m(raylet)[0m *** StackTrace Information ***
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0xb83a1a) [0x5555560d7a1a] ray::operator<<()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0xb851d7) [0x5555560d91d7] ray::SpdLogMessage::Flush()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0xb85677) [0x5555560d9677] ray::RayLog::~RayLog()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0x2ed951) [0x555555841951] ray::raylet::NodeManager::NodeRemoved()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0x4ada87) [0x555555a01a87] ray::gcs::NodeInfoAccessor::HandleNotification()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0x5b420e) [0x555555b0820e] EventTracker::RecordExecution()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0x5ad5fe) [0x555555b015fe] std::_Function_handler<>::_M_invoke()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0x5ada76) [0x555555b01a76] boost::asio::detail::completion_handler<>::do_complete()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0xc6529b) [0x5555561b929b] boost::asio::detail::scheduler::do_run_one()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0xc67829) [0x5555561bb829] boost::asio::detail::scheduler::run()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0xc67d42) [0x5555561bbd42] boost::asio::io_context::run()
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0x1cfb2a) [0x555555723b2a] main
+[33m(raylet)[0m /lib64/libc.so.6(__libc_start_main+0xf5) [0x2aaaabc19555] __libc_start_main
+[33m(raylet)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/core/src/ray/raylet/raylet(+0x2249f7) [0x5555557789f7]
+[33m(raylet)[0m [2024-01-08 15:12:09,839 E 38010 38010] (raylet) worker_pool.cc:553: Some workers of the worker process(39833) have not registered within the timeout. The process is still alive, probably it's hanging during start.[32m [repeated 4x across cluster][0m
+[33m(raylet)[0m 
+/home/waris/.conda/envs/llm/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+WARNING flwr 2024-01-08 15:12:52,592 | fedavg.py:117 | 
+Setting `min_available_clients` lower than `min_fit_clients` or
+`min_evaluate_clients` can cause the server to fail when there are too few clients
+connected to the server. `min_available_clients` must be set to a value larger
+than or equal to the values of `min_fit_clients` and `min_evaluate_clients`.
+
+INFO flwr 2024-01-08 15:12:52,594 | app.py:178 | Starting Flower simulation, config: ServerConfig(num_rounds=450, round_timeout=None)
+2024-01-08 15:12:55,235	INFO worker.py:1724 -- Started a local Ray instance.
+INFO flwr 2024-01-08 15:12:56,642 | app.py:213 | Flower VCE: Ray initialized with resources: {'accelerator_type:A100': 1.0, 'node:__internal_head__': 1.0, 'memory': 1148439763968.0, 'CPU': 32.0, 'GPU': 2.0, 'node:10.128.9.203': 1.0, 'object_store_memory': 200000000000.0}
+INFO flwr 2024-01-08 15:12:56,643 | app.py:219 | Optimize your simulation with Flower VCE: https://flower.dev/docs/framework/how-to-run-simulations.html
+INFO flwr 2024-01-08 15:12:56,643 | app.py:242 | Flower VCE: Resources for each Virtual Client: {'num_cpus': 3, 'num_gpus': 0.2}
+INFO flwr 2024-01-08 15:12:56,655 | app.py:288 | Flower VCE: Creating VirtualClientEngineActorPool with 10 actors
+INFO flwr 2024-01-08 15:12:56,655 | server.py:89 | Initializing global parameters
+INFO flwr 2024-01-08 15:12:56,655 | server.py:276 | Requesting initial parameters from one random client
+[33m(raylet)[0m E0108 15:12:57.373664934   42854 thd.cc:157]                           pthread_create failed: Resource temporarily unavailable
+[36m(pid=41161)[0m [2024-01-08 15:12:57,373 E 41161 41310] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11]
+[33m(raylet)[0m [2024-01-08 15:12:57,674 E 41036 41036] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: Socket closed; RPC Error details: 
+[36m(pid=41161)[0m [2024-01-08 15:12:57,670 E 41161 41310] logging.cc:104: Stack trace: 
+[36m(pid=41161)[0m  /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfe925a) [0x2aaab335825a] ray::operator<<()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfeb998) [0x2aaab335a998] ray::TerminateHandler()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/bin/../lib/libstdc++.so.6(+0xb135a) [0x2aaab3c3e35a] __cxxabiv1::__terminate()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/bin/../lib/libstdc++.so.6(+0xb13c5) [0x2aaab3c3e3c5]
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/bin/../lib/libstdc++.so.6(+0xb1658) [0x2aaab3c3e658]
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x5574d0) [0x2aaab28c64d0] boost::throw_exception<>()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d557b) [0x2aaab344457b] boost::asio::detail::do_throw_error()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d5f9b) [0x2aaab3444f9b] boost::asio::detail::posix_thread::start_thread()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d63fc) [0x2aaab34453fc] boost::asio::thread_pool::thread_pool()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa14564) [0x2aaab2d83564] ray::rpc::(anonymous namespace)::_GetServerCallExecutor()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc21GetServerCallExecutorEv+0x9) [0x2aaab2d835f9] ray::rpc::GetServerCallExecutor()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZNSt17_Function_handlerIFvN3ray6StatusESt8functionIFvvEES4_EZNS0_3rpc14ServerCallImplINS6_24CoreWorkerServiceHandlerENS6_11ExitRequestENS6_9ExitReplyELNS6_8AuthTypeE0EE17HandleRequestImplEbEUlS1_S4_S4_E0_E9_M_invokeERKSt9_Any_dataOS1_OS4_SJ_+0xe2) [0x2aaab2aa4952] std::_Function_handler<>::_M_invoke()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker10HandleExitENS_3rpc11ExitRequestEPNS2_9ExitReplyESt8functionIFvNS_6StatusES6_IFvvEES9_EE+0x108) [0x2aaab2aeb758] ray::core::CoreWorker::HandleExit()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc14ServerCallImplINS0_24CoreWorkerServiceHandlerENS0_11ExitRequestENS0_9ExitReplyELNS0_8AuthTypeE0EE17HandleRequestImplEb+0xfe) [0x2aaab2adc1ae] ray::rpc::ServerCallImpl<>::HandleRequestImpl()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa25d4e) [0x2aaab2d94d4e] EventTracker::RecordExecution()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f13e) [0x2aaab2d8e13e] std::_Function_handler<>::_M_invoke()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f5b6) [0x2aaab2d8e5b6] boost::asio::detail::completion_handler<>::do_complete()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d2c0b) [0x2aaab3441c0b] boost::asio::detail::scheduler::do_run_one()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4589) [0x2aaab3443589] boost::asio::detail::scheduler::run()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4c92) [0x2aaab3443c92] boost::asio::io_context::run()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker12RunIOServiceEv+0xc9) [0x2aaab2ac2249] ray::core::CoreWorker::RunIOService()
+[36m(pid=41161)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xb12e60) [0x2aaab2e81e60] thread_proxy
+[36m(pid=41161)[0m /lib64/libpthread.so.0(+0x7ea5) [0x2aaaaacd6ea5] start_thread
+[36m(pid=41161)[0m /lib64/libc.so.6(clone+0x6d) [0x2aaaab6f2b0d] clone
+[36m(pid=41161)[0m 
+[36m(pid=41161)[0m *** SIGABRT received at time=1704744777 on cpu 70 ***
+[36m(pid=41161)[0m PC: @     0x2aaaab62a387  (unknown)  raise
+[36m(pid=41161)[0m     @     0x2aaaaacde630       1888  (unknown)
+[36m(pid=41161)[0m     @     0x2aaab3c3e35a  1455427152  __cxxabiv1::__terminate()
+[36m(pid=41161)[0m     @     0x2aaab3c3e580  (unknown)  (unknown)
+[36m(pid=41161)[0m [2024-01-08 15:12:57,671 E 41161 41310] logging.cc:361: *** SIGABRT received at time=1704744777 on cpu 70 ***
+[36m(pid=41161)[0m [2024-01-08 15:12:57,671 E 41161 41310] logging.cc:361: PC: @     0x2aaaab62a387  (unknown)  raise
+[36m(pid=41161)[0m [2024-01-08 15:12:57,671 E 41161 41310] logging.cc:361:     @     0x2aaaaacde630       1888  (unknown)
+[36m(pid=41161)[0m [2024-01-08 15:12:57,671 E 41161 41310] logging.cc:361:     @     0x2aaab3c3e35a  1455427152  __cxxabiv1::__terminate()
+[36m(pid=41161)[0m [2024-01-08 15:12:57,671 E 41161 41310] logging.cc:361:     @     0x2aaab3c3e580  (unknown)  (unknown)
+[36m(pid=41161)[0m Fatal Python error: Aborted
+[36m(pid=41161)[0m 
+[36m(pid=41161)[0m 
+[36m(pid=41161)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet (total: 7)
+[33m(raylet)[0m [2024-01-08 15:13:17,576 E 41036 41036] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: failed to connect to all addresses; last error: UNKNOWN: ipv4:10.128.9.203:41171: tcp handshaker shutdown; RPC Error details: 
+[33m(raylet)[0m E0108 15:12:57.635302892   41128 thd.cc:157]                           pthread_create failed: Resource temporarily unavailable[32m [repeated 186x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[36m(pid=41186)[0m [2024-01-08 15:12:57,585 E 41186 42482] logging.cc:97: Unhandled exception: N5boost10wrapexceptINS_6system12system_errorEEE. what(): thread: Resource temporarily unavailable [system:11][32m [repeated 20x across cluster][0m
+[33m(raylet)[0m [2024-01-08 15:12:57,882 E 41036 41036] (raylet) worker_pool.cc:1121: Failed to send exit request: GrpcUnavailable: RPC Error message: Socket closed; RPC Error details: [32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m [2024-01-08 15:12:57,861 E 41186 42482] logging.cc:104: Stack trace: [32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m  /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfe925a) [0x2aaab335825a] ray::operator<<()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xfeb998) [0x2aaab335a998] ray::TerminateHandler()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m [32m [repeated 120x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x5574d0) [0x2aaab28c64d0] boost::throw_exception<>()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d557b) [0x2aaab344457b] boost::asio::detail::do_throw_error()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d5f9b) [0x2aaab3444f9b] boost::asio::detail::posix_thread::start_thread()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d63fc) [0x2aaab34453fc] boost::asio::thread_pool::thread_pool()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa14564) [0x2aaab2d83564] ray::rpc::(anonymous namespace)::_GetServerCallExecutor()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc21GetServerCallExecutorEv+0x9) [0x2aaab2d835f9] ray::rpc::GetServerCallExecutor()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f13e) [0x2aaab2d8e13e] std::_Function_handler<>::_M_invoke()[32m [repeated 40x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker10HandleExitENS_3rpc11ExitRequestEPNS2_9ExitReplyESt8functionIFvNS_6StatusES6_IFvvEES9_EE+0x108) [0x2aaab2aeb758] ray::core::CoreWorker::HandleExit()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray3rpc14ServerCallImplINS0_24CoreWorkerServiceHandlerENS0_11ExitRequestENS0_9ExitReplyELNS0_8AuthTypeE0EE17HandleRequestImplEb+0xfe) [0x2aaab2adc1ae] ray::rpc::ServerCallImpl<>::HandleRequestImpl()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa25d4e) [0x2aaab2d94d4e] EventTracker::RecordExecution()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xa1f5b6) [0x2aaab2d8e5b6] boost::asio::detail::completion_handler<>::do_complete()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d2c0b) [0x2aaab3441c0b] boost::asio::detail::scheduler::do_run_one()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4589) [0x2aaab3443589] boost::asio::detail::scheduler::run()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0x10d4c92) [0x2aaab3443c92] boost::asio::io_context::run()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorker12RunIOServiceEv+0xc9) [0x2aaab2ac2249] ray::core::CoreWorker::RunIOService()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_raylet.so(+0xb12e60) [0x2aaab2e81e60] thread_proxy[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /lib64/libpthread.so.0(+0x7ea5) [0x2aaaaacd6ea5] start_thread[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m /lib64/libc.so.6(clone+0x6d) [0x2aaaab6f2b0d] clone[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m *** SIGABRT received at time=1704744777 on cpu 56 ***[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m PC: @     0x2aaaab62a387  (unknown)  raise[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m     @     0x2aaaaacde630       1888  (unknown)[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m     @     0x2aaab3c3e35a  515903072  __cxxabiv1::__terminate()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m     @     0x2aaab3c3e580  (unknown)  (unknown)[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m [2024-01-08 15:12:57,862 E 41186 42482] logging.cc:361: *** SIGABRT received at time=1704744777 on cpu 56 ***[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m [2024-01-08 15:12:57,862 E 41186 42482] logging.cc:361: PC: @     0x2aaaab62a387  (unknown)  raise[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m [2024-01-08 15:12:57,862 E 41186 42482] logging.cc:361:     @     0x2aaaaacde630       1888  (unknown)[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m [2024-01-08 15:12:57,862 E 41186 42482] logging.cc:361:     @     0x2aaab3c3e35a  515903072  __cxxabiv1::__terminate()[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m [2024-01-08 15:12:57,863 E 41186 42482] logging.cc:361:     @     0x2aaab3c3e580  (unknown)  (unknown)[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m Fatal Python error: Aborted[32m [repeated 20x across cluster][0m
+[36m(pid=41186)[0m Extension modules: msgpack._cmsgpack, psutil._psutil_linux, psutil._psutil_posix, setproctitle, yaml._yaml, _brotli, ray._raylet (total: 7)[32m [repeated 20x across cluster][0m
+slurmstepd: error: *** JOB 1932176 ON tc-gpu003 CANCELLED AT 2024-01-08T15:13:51 ***

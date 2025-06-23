@@ -1,0 +1,21 @@
+Cache Type,Metric,Value,Key
+GPTCache,F1,0.8339973439575032,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,Precision,0.7482128673550437,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,Recall,0.942,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,Accuracy,0.8125,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,Threshold,0.7,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,Avg. Time,0.0013427739143371583,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,True Hit Rate,0.815,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,False Hit Rate,0.2375,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,True Miss Rate,0.661,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+GPTCache,False Miss Rate,0.049,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,F1,0.8642685851318945,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,Precision,0.8304147465437788,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,Recall,0.901,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,Accuracy,0.8585,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,Threshold,0.705,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,Avg. Time,0.000436055064201355,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,True Hit Rate,0.739,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,False Hit Rate,0.189,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,True Miss Rate,0.789,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-
+FedGPTCache,False Miss Rate,0.094,Approved-tname-paraphrase-albert-small-v2-dname-dgptcache-clients_per_round-4-num_clients-20-batch_size-256-device-cuda-client_epochs-6-num_rounds-100-

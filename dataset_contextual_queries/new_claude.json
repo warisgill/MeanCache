@@ -1,0 +1,1023 @@
+[
+    {
+      "u0": "What are the main components of a computer?",
+      "u0_duplicate": "Can you describe the essential parts of a computer system?",
+      "system_q0": "A computer system consists of several main components: 1. Central Processing Unit (CPU): The 'brain' of the computer that performs calculations and executes instructions. 2. Random Access Memory (RAM): Temporary storage for data and programs currently in use. 3. Hard Drive or Solid State Drive: Permanent storage for the operating system, software, and user files. 4. Motherboard: The main circuit board that connects all components. 5. Power Supply Unit (PSU): Provides electrical power to all components. 6. Input devices: Such as keyboard and mouse. 7. Output devices: Such as monitor and speakers. 8. Graphics Processing Unit (GPU): Handles graphics rendering, especially important for gaming and video editing.",
+      "u1": "Which part is often referred to as the 'brain'?",
+      "u1_duplicate": "What component is considered the computer's primary thinking unit?",
+      "system_q1": "The Central Processing Unit (CPU) is often referred to as the 'brain' of the computer."
+    },
+    {
+      "u0": "What is photosynthesis?",
+      "u0_duplicate": "Can you explain the process of photosynthesis in plants?",
+      "system_q0": "Photosynthesis is a complex biological process used by plants and other organisms to convert light energy into chemical energy. The process can be summarized in the following steps: 1. Light absorption: Chlorophyll and other pigments in plant leaves absorb light energy. 2. Light-dependent reactions: This energy is used to split water molecules, releasing oxygen and hydrogen ions. 3. Calvin cycle (light-independent reactions): Carbon dioxide from the air is combined with the hydrogen ions and electrons from the light-dependent reactions to produce glucose. The overall equation for photosynthesis is: 6CO2 + 6H2O + light energy → C6H12O6 + 6O2. This process is crucial for life on Earth as it produces oxygen and serves as the basis for most food chains.",
+      "u1": "What gas is released as a byproduct?",
+      "u1_duplicate": "Which molecule is given off during this process?",
+      "system_q1": "Oxygen (O2) is released as a byproduct during photosynthesis."
+    },
+    {
+      "u0": "What is the theory of relativity?",
+      "u0_duplicate": "Can you explain Einstein's theory of relativity?",
+      "system_q0": "The theory of relativity, developed by Albert Einstein, consists of two interrelated theories: special relativity and general relativity. Special relativity, published in 1905, deals with the relationship between space and time and the nature of light. It introduces concepts such as the speed of light being constant for all observers and the relativity of simultaneity. General relativity, published in 1915, extends special relativity to include gravity. It describes gravity not as a force, but as a consequence of the curvature of spacetime caused by mass and energy. Key implications of these theories include time dilation, length contraction, mass-energy equivalence (E=mc²), and the prediction of black holes and gravitational waves.",
+      "u1": "What does the famous equation E=mc² represent?",
+      "u1_duplicate": "Which concept is described by Einstein's most well-known formula?",
+      "system_q1": "The equation E=mc² represents mass-energy equivalence, which states that energy and mass are interchangeable and directly related to each other."
+    },
+    {
+      "u0": "What is the water cycle?",
+      "u0_duplicate": "Can you describe the hydrologic cycle?",
+      "system_q0": "The water cycle, also known as the hydrologic cycle, is the continuous movement of water within the Earth and atmosphere. It involves several processes: 1. Evaporation: Water turns into vapor due to solar energy. 2. Transpiration: Plants release water vapor into the air. 3. Condensation: Water vapor cools and forms clouds. 4. Precipitation: Water falls as rain, snow, sleet, or hail. 5. Infiltration: Water soaks into the ground. 6. Surface runoff: Water flows over land into bodies of water. 7. Groundwater flow: Water moves through underground aquifers. This cycle is crucial for distributing water around the globe and maintaining Earth's ecosystems.",
+      "u1": "What happens when water vapor cools in the atmosphere?",
+      "u1_duplicate": "Which process occurs as water vapor temperature decreases?",
+      "system_q1": "When water vapor cools in the atmosphere, it undergoes condensation, forming tiny water droplets that make up clouds."
+    },
+    {
+      "u0": "What is the structure of an atom?",
+      "u0_duplicate": "Can you describe the components of an atom?",
+      "system_q0": "An atom is the basic unit of matter and consists of three main parts: 1. Nucleus: The dense center of the atom containing positively charged protons and neutral neutrons. It accounts for most of the atom's mass. 2. Electrons: Negatively charged particles that orbit the nucleus in shells or energy levels. They are much lighter than protons or neutrons. 3. Electron shells: The regions around the nucleus where electrons are found, arranged in different energy levels. The number of protons in the nucleus determines the element, while the number of electrons in the outermost shell influences the atom's chemical properties.",
+      "u1": "What determines the element of an atom?",
+      "u1_duplicate": "Which part defines what element an atom is?",
+      "system_q1": "The number of protons in the nucleus determines the element of an atom."
+    },
+    {
+      "u0": "What was the Industrial Revolution?",
+      "u0_duplicate": "Can you explain the historical period known as the Industrial Revolution?",
+      "system_q0": "The Industrial Revolution was a period of major industrialization and innovation that took place during the late 1700s and early 1800s. It began in Great Britain and quickly spread to other parts of Europe and North America. Key features included: 1. Transition from hand production to machine manufacturing. 2. Development of the factory system. 3. Increased use of steam power and water power. 4. Improvements in transportation and communication. 5. Rise of the mechanized textile industry. 6. Advancements in iron production techniques. This period marked a major turning point in history, with far-reaching effects on economy, society, culture, and the environment.",
+      "u1": "Where did this period of change begin?",
+      "u1_duplicate": "In which country did the Industrial Revolution start?",
+      "system_q1": "The Industrial Revolution began in Great Britain."
+    },
+    {
+      "u0": "What is DNA?",
+      "u0_duplicate": "Can you explain what DNA is and its function?",
+      "system_q0": "DNA (Deoxyribonucleic Acid) is a molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known living organisms and many viruses. Key points about DNA include: 1. Structure: It's a double helix, consisting of two strands coiled around each other. 2. Composition: Made up of four nucleotide bases - Adenine (A), Thymine (T), Guanine (G), and Cytosine (C). 3. Base pairing: A always pairs with T, and G always pairs with C. 4. Function: Stores and transmits genetic information. 5. Location: In eukaryotes, DNA is found in the cell nucleus and mitochondria. 6. Replication: DNA can make copies of itself for cell division. 7. Transcription: DNA is used as a template to make RNA, which then guides protein synthesis.",
+      "u1": "How many types of nucleotide bases are there?",
+      "u1_duplicate": "What's the number of different nucleotides in DNA?",
+      "system_q1": "There are four types of nucleotide bases in DNA: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C)."
+    },
+    {
+      "u0": "What is climate change?",
+      "u0_duplicate": "Can you explain the concept of global climate change?",
+      "system_q0": "Climate change refers to long-term shifts in global weather patterns and average temperatures. Key aspects include: 1. Global warming: The long-term heating of Earth's climate system observed since the pre-industrial period. 2. Causes: Primarily human activities, especially the burning of fossil fuels, which increases heat-trapping greenhouse gases in Earth's atmosphere. 3. Effects: Rising sea levels, extreme weather events, shifting wildlife populations and habitats, and a range of impacts on human societies. 4. Evidence: Observed through rising global temperatures, warming oceans, shrinking ice sheets, glacial retreat, decreased snow cover, sea level rise, and extreme events. 5. Mitigation: Efforts to reduce or prevent greenhouse gas emissions. 6. Adaptation: Adjusting to actual or expected future climate changes.",
+      "u1": "What's the primary cause mentioned?",
+      "u1_duplicate": "Which factor is stated as the main contributor?",
+      "system_q1": "The primary cause of climate change mentioned is human activities, especially the burning of fossil fuels, which increases heat-trapping greenhouse gases in Earth's atmosphere."
+    },
+    {
+      "u0": "What is the theory of evolution?",
+      "u0_duplicate": "Can you explain Darwin's theory of evolution?",
+      "system_q0": "The theory of evolution by natural selection, first formulated by Charles Darwin, explains how species of living things have changed over geological time. Key points include: 1. Variation: Within a population, individuals have different traits. 2. Inheritance: Some traits are passed from parents to offspring. 3. Competition: Organisms produce more offspring than can survive with limited resources. 4. Survival and Reproduction: Organisms with traits best suited to the environment are more likely to survive and reproduce. 5. Change Over Time: The proportion of individuals with advantageous traits increases over generations. This process can lead to changes in species over time, and potentially the formation of new species. Evidence for evolution comes from various fields including paleontology, comparative anatomy, embryology, molecular biology, and biogeography.",
+      "u1": "What happens to traits that are advantageous?",
+      "u1_duplicate": "How do beneficial characteristics change in a population over time?",
+      "system_q1": "Advantageous traits increase in proportion within a population over generations, as organisms with these traits are more likely to survive and reproduce."
+    },
+    {
+      "u0": "What is quantum mechanics?",
+      "u0_duplicate": "Can you explain the basic principles of quantum mechanics?",
+      "system_q0": "Quantum mechanics is a fundamental theory in physics that describes nature at the smallest scales of energy levels of atoms and subatomic particles. Key concepts include: 1. Wave-particle duality: Particles can exhibit both wave and particle properties. 2. Uncertainty principle: It's impossible to simultaneously know both the exact position and momentum of a particle. 3. Superposition: A quantum system can exist in multiple states simultaneously until measured. 4. Quantum entanglement: Particles can be connected in ways that the quantum state of each particle cannot be described independently. 5. Probabilistic nature: Quantum mechanics often deals with probabilities rather than certainties. 6. Quantum tunneling: Particles can pass through barriers that should be impassable according to classical physics. These principles have led to many technological advancements, including transistors, lasers, and magnetic resonance imaging (MRI).",
+      "u1": "What's impossible to know simultaneously about a particle?",
+      "u1_duplicate": "Which two properties can't be precisely measured at the same time?",
+      "system_q1": "According to the uncertainty principle in quantum mechanics, it's impossible to simultaneously know both the exact position and momentum of a particle."
+    }
+  ,
+
+  
+    {
+      "u0": "What is blockchain technology?",
+      "u0_duplicate": "Can you explain how blockchain works?",
+      "system_q0": "Blockchain is a decentralized, distributed ledger technology that records transactions across many computers. Key features include: 1. Decentralization: No single authority controls the network. 2. Transparency: All transactions are visible to network participants. 3. Immutability: Once recorded, data cannot be altered without consensus. 4. Security: Cryptographic hashing ensures data integrity. 5. Consensus mechanisms: Methods like Proof of Work or Proof of Stake validate transactions. 6. Smart contracts: Self-executing contracts with terms directly written into code. Blockchain is most famously used in cryptocurrencies like Bitcoin, but has applications in various fields including finance, supply chain management, and voting systems.",
+      "u1": "What ensures the integrity of the data?",
+      "u1_duplicate": "Which feature protects the information from tampering?",
+      "system_q1": "Cryptographic hashing ensures data integrity in blockchain technology."
+    },
+    {
+      "u0": "What is the process of meiosis?",
+      "u0_duplicate": "Can you describe how meiosis works in cell division?",
+      "system_q0": "Meiosis is a type of cell division that produces gametes in sexually reproducing organisms. The process reduces the chromosome number by half, creating four haploid cells from one diploid cell. Key stages include: 1. Interphase: DNA replication occurs. 2. Prophase I: Homologous chromosomes pair and exchange genetic material (crossing over). 3. Metaphase I: Paired chromosomes align at the equator. 4. Anaphase I: Homologous chromosomes separate. 5. Telophase I and Cytokinesis: Two haploid cells form. 6. Meiosis II: Similar to mitosis, sister chromatids separate. 7. Final result: Four haploid cells, each genetically unique. Meiosis is crucial for genetic diversity and the maintenance of chromosome numbers across generations.",
+      "u1": "How many haploid cells are produced at the end?",
+      "u1_duplicate": "What's the number of resulting cells with half the chromosomes?",
+      "system_q1": "At the end of meiosis, four haploid cells are produced."
+    },
+    {
+      "u0": "What is the Big Bang theory?",
+      "u0_duplicate": "Can you explain the theory of the universe's origin?",
+      "system_q0": "The Big Bang theory is the prevailing cosmological model explaining the origin of the universe. Key points include: 1. The universe began as an infinitely dense and hot single point (singularity) about 13.8 billion years ago. 2. It rapidly expanded and cooled, allowing the formation of subatomic particles, then simple atoms. 3. Over millions of years, gravity caused matter to collect into clouds that became stars and galaxies. 4. The universe is still expanding today. Evidence supporting the theory includes: the cosmic microwave background radiation, the abundance of light elements, and the large-scale structure of the universe. While widely accepted, the theory doesn't explain what happened before the Big Bang or what caused it.",
+      "u1": "How long ago did this event occur?",
+      "u1_duplicate": "When is the universe thought to have begun?",
+      "system_q1": "According to the Big Bang theory, the universe began about 13.8 billion years ago."
+    },
+    {
+      "u0": "What is artificial intelligence?",
+      "u0_duplicate": "Can you explain the concept of AI?",
+      "system_q0": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and learn like humans. Key aspects include: 1. Machine Learning: Algorithms that improve through experience. 2. Deep Learning: Neural networks with many layers that can learn and make intelligent decisions on their own. 3. Natural Language Processing: Ability to understand, interpret, and generate human language. 4. Computer Vision: Systems that can identify and process images like humans do. 5. Robotics: Machines capable of carrying out complex tasks automatically. 6. Expert Systems: AI systems that emulate the decision-making ability of a human expert. AI has applications in various fields including healthcare, finance, education, and autonomous vehicles.",
+      "u1": "Which aspect involves neural networks with many layers?",
+      "u1_duplicate": "What term describes AI systems with multiple neural network levels?",
+      "system_q1": "Deep Learning involves neural networks with many layers that can learn and make intelligent decisions on their own."
+    },
+    {
+      "u0": "What is the process of photosynthesis?",
+      "u0_duplicate": "Can you explain how plants convert light into energy?",
+      "system_q0": "Photosynthesis is the process by which plants and other organisms convert light energy into chemical energy. The process occurs in two main stages: 1. Light-dependent reactions: Occur in the thylakoid membrane, where light energy is captured and converted into ATP and NADPH. 2. Calvin cycle (light-independent reactions): Takes place in the stroma, where CO2 is converted into glucose using the ATP and NADPH from the first stage. The overall equation is: 6CO2 + 6H2O + light energy → C6H12O6 + 6O2. Chlorophyll, the green pigment in plants, is crucial for absorbing light. Photosynthesis is vital for life on Earth as it produces oxygen and serves as the basis for most food chains.",
+      "u1": "Where does the Calvin cycle occur?",
+      "u1_duplicate": "In which part of the chloroplast do light-independent reactions happen?",
+      "system_q1": "The Calvin cycle (light-independent reactions) takes place in the stroma of the chloroplast."
+    },
+    {
+      "u0": "What is the theory of plate tectonics?",
+      "u0_duplicate": "Can you explain how the Earth's crust moves?",
+      "system_q0": "The theory of plate tectonics states that the Earth's outer shell is divided into several plates that glide over the mantle, the rocky inner layer above the core. Key points include: 1. The lithosphere is divided into large, rigid plates. 2. Plates move relative to each other, driven by convection currents in the mantle. 3. Plate boundaries can be convergent (colliding), divergent (separating), or transform (sliding past each other). 4. These movements cause various geological phenomena such as earthquakes, volcanic activity, mountain building, and the formation of oceanic trenches. 5. The theory explains continental drift, the shape of coastlines, and the distribution of fossils across continents. Plate tectonics is fundamental to understanding Earth's geological history and ongoing geological processes.",
+      "u1": "What drives the movement of the plates?",
+      "u1_duplicate": "Which forces cause the plates to move?",
+      "system_q1": "The plates are driven by convection currents in the mantle."
+    },
+    {
+      "u0": "What is quantum entanglement?",
+      "u0_duplicate": "Can you explain the phenomenon of quantum entanglement?",
+      "system_q0": "Quantum entanglement is a phenomenon in quantum physics where two or more particles become interconnected in such a way that the quantum state of each particle cannot be described independently, even when separated by a large distance. Key features include: 1. Non-locality: Entangled particles can instantly affect each other regardless of distance. 2. Correlation: Measuring one particle immediately determines the state of its entangled partner. 3. Einstein's 'spooky action at a distance': A phrase used to describe the seemingly impossible nature of this phenomenon. 4. Applications: Used in quantum computing, quantum cryptography, and quantum teleportation. 5. Challenges classical physics: It contradicts local realism, a concept in classical physics. Entanglement is a key principle in quantum mechanics and has been experimentally verified numerous times.",
+      "u1": "What happens when one particle of an entangled pair is measured?",
+      "u1_duplicate": "How does observing one entangled particle affect its partner?",
+      "system_q1": "When one particle of an entangled pair is measured, it immediately determines the state of its entangled partner, regardless of the distance between them."
+    },
+    {
+      "u0": "What is the greenhouse effect?",
+      "u0_duplicate": "Can you explain how the Earth's atmosphere traps heat?",
+      "system_q0": "The greenhouse effect is a natural process that warms the Earth's surface. It occurs when gases in the atmosphere trap heat from the sun. The process works as follows: 1. Solar radiation reaches the Earth's atmosphere. 2. Some is reflected back to space, while the rest is absorbed by the Earth's surface. 3. The Earth's surface re-emits this energy as infrared radiation. 4. Greenhouse gases in the atmosphere absorb some of this infrared radiation and re-emit it in all directions, including back towards the Earth's surface. Key greenhouse gases include water vapor, carbon dioxide, methane, and ozone. While the natural greenhouse effect is essential for life on Earth, human activities have enhanced this effect, leading to global warming and climate change.",
+      "u1": "What type of radiation does the Earth's surface emit?",
+      "u1_duplicate": "In what form does the Earth release the absorbed energy?",
+      "system_q1": "The Earth's surface re-emits the absorbed energy as infrared radiation."
+    },
+    {
+      "u0": "What is gene editing?",
+      "u0_duplicate": "Can you explain the process of modifying genes?",
+      "system_q0": "Gene editing is a type of genetic engineering where DNA is inserted, deleted, modified or replaced in the genome of a living organism. Key aspects include: 1. CRISPR-Cas9: A popular gene-editing tool that acts like molecular scissors to cut DNA at a specific location. 2. Zinc Finger Nucleases (ZFNs) and TALENs: Other methods used for gene editing. 3. Applications: Used in medicine, agriculture, and biotechnology. 4. Potential for treating genetic disorders, creating disease-resistant crops, and developing new therapies. 5. Ethical considerations: Raises questions about altering human embryos and potential misuse. 6. Precision: Allows for more accurate genetic modifications compared to older techniques. Gene editing has the potential to revolutionize many fields but also raises significant ethical and safety concerns.",
+      "u1": "Which tool is described as acting like molecular scissors?",
+      "u1_duplicate": "What method is compared to a precise cutting instrument?",
+      "system_q1": "CRISPR-Cas9 is described as acting like molecular scissors to cut DNA at a specific location."
+    },
+    {
+      "u0": "What is the Doppler effect?",
+      "u0_duplicate": "Can you explain the phenomenon of frequency change in moving sound sources?",
+      "system_q0": "The Doppler effect is the change in frequency of a wave in relation to an observer who is moving relative to the wave source. Key points include: 1. For approaching sources, the observed frequency is higher than the emitted frequency. 2. For receding sources, the observed frequency is lower than the emitted frequency. 3. The effect applies to all types of waves, including sound and light. 4. Formula: f' = f * ((v ± vo) / (v ± vs)), where f' is observed frequency, f is emitted frequency, v is wave speed, vo is observer velocity, and vs is source velocity. 5. Applications include radar guns for speed measurement, astronomical redshift, and medical ultrasound. 6. Named after Austrian physicist Christian Doppler who proposed it in 1842. The Doppler effect explains why the pitch of a siren changes as it passes by an observer.",
+      "u1": "What happens to the frequency when the source is approaching?",
+      "u1_duplicate": "How does the observed frequency change for an oncoming wave source?",
+      "system_q1": "For approaching sources, the observed frequency is higher than the emitted frequency."
+    }
+  ,
+
+  
+    {
+        "u0": "Tell me about the Eiffel Tower.",
+        "u0_duplicate": "What do you know about the Eiffel Tower?",
+        "system_q0": "The Eiffel Tower is an iron lattice tower located on the Champ de Mars in Paris, France. It was named after the engineer Gustave Eiffel, whose company designed and built the tower. The Eiffel Tower is one of the most recognizable structures in the world and a global cultural icon of France. It was completed in 1889 as the entrance arch for the 1889 World's Fair.",
+        "u1": "when was it completed",
+        "u1_duplicate": "its completion date",
+        "system_q1": "The Eiffel Tower was completed in 1889."
+    },
+    {
+        "u0": "Explain the concept of black holes.",
+        "u0_duplicate": "What are black holes?",
+        "system_q0": "A black hole is a region of space where the gravitational pull is so strong that nothing, not even light, can escape from it. Black holes are formed when massive stars collapse at the end of their life cycle. They are characterized by their event horizon, beyond which events cannot affect an outside observer. Black holes can vary in size and are detected through their interaction with nearby matter and the radiation they emit.",
+        "u1": "how are they formed",
+        "u1_duplicate": "formation process of them",
+        "system_q1": "Black holes are formed when massive stars collapse at the end of their life cycle."
+    },
+    {
+        "u0": "Describe the Great Wall of China.",
+        "u0_duplicate": "Can you tell me about the Great Wall of China?",
+        "system_q0": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against various nomadic groups from the Eurasian Steppe. Several walls were built as early as the 7th century BC, but the most well-known sections were built by the Ming Dynasty (1368–1644). The Great Wall stretches over 13,000 miles and is a UNESCO World Heritage site.",
+        "u1": "which dynasty built most sections",
+        "u1_duplicate": "main dynasty responsible for its construction",
+        "system_q1": "The most well-known sections of the Great Wall were built by the Ming Dynasty."
+    },
+    {
+        "u0": "What is the significance of the Moon landing?",
+        "u0_duplicate": "Tell me about the importance of the Moon landing.",
+        "system_q0": "The Moon landing refers to the event on July 20, 1969, when Apollo 11 successfully landed on the Moon, and astronauts Neil Armstrong and Buzz Aldrin became the first humans to walk on its surface. This event is significant as it represented a monumental achievement in space exploration and a major victory in the space race between the United States and the Soviet Union. It demonstrated the potential of human ingenuity and technology and has had lasting impacts on science, technology, and culture.",
+        "u1": "who were the first humans to walk on the moon",
+        "u1_duplicate": "first moonwalkers",
+        "system_q1": "The first humans to walk on the Moon were Neil Armstrong and Buzz Aldrin."
+    },
+    {
+        "u0": "Tell me about the Amazon rainforest.",
+        "u0_duplicate": "What do you know about the Amazon rainforest?",
+        "system_q0": "The Amazon rainforest, also known as Amazonia, is a vast tropical rainforest in South America. It is the largest rainforest in the world, covering approximately 5.5 million square kilometers. The Amazon basin is home to a diverse range of flora and fauna, many of which are unique to the region. The rainforest plays a crucial role in regulating the Earth's climate and is often referred to as the 'lungs of the Earth' due to its ability to produce a significant amount of the world's oxygen.",
+        "u1": "why is it called the lungs of the earth",
+        "u1_duplicate": "reason for its nickname 'lungs of the earth'",
+        "system_q1": "The Amazon rainforest is often referred to as the 'lungs of the Earth' due to its ability to produce a significant amount of the world's oxygen."
+    }
+,
+
+
+    {
+        "u0": "What is the significance of the Rosetta Stone?",
+        "u0_duplicate": "Tell me about the importance of the Rosetta Stone.",
+        "system_q0": "The Rosetta Stone is a granodiorite stele discovered in 1799 in Egypt. It is inscribed with three versions of a decree issued in Memphis in 196 BC during the Ptolemaic dynasty. The top and middle texts are in Ancient Egyptian using hieroglyphic and Demotic scripts, while the bottom is in Ancient Greek. The Rosetta Stone was instrumental in deciphering Egyptian hieroglyphs, leading to significant advancements in our understanding of ancient Egyptian language and culture.",
+        "u1": "when was it discovered",
+        "u1_duplicate": "discovery year of the stone",
+        "system_q1": "The Rosetta Stone was discovered in 1799."
+    },
+    {
+        "u0": "Explain the process of photosynthesis.",
+        "u0_duplicate": "How does photosynthesis work?",
+        "system_q0": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. This process occurs in chloroplasts, which contain the pigment chlorophyll. During photosynthesis, carbon dioxide and water are used to produce glucose and oxygen. The general equation for photosynthesis is: 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2.",
+        "u1": "what is produced during this process",
+        "u1_duplicate": "end products of this process",
+        "system_q1": "During photosynthesis, glucose and oxygen are produced."
+    },
+    {
+        "u0": "Tell me about the history of the Internet.",
+        "u0_duplicate": "What is the background of the Internet?",
+        "system_q0": "The Internet's history dates back to the 1960s when the U.S. Department of Defense developed ARPANET, the precursor to the modern Internet, to enable secure communication between different research institutions. In the 1980s, the development of the TCP/IP protocol suite standardized networking, allowing different networks to interconnect. The World Wide Web, developed by Tim Berners-Lee in 1989, revolutionized the Internet by enabling the easy sharing and access of information through web browsers.",
+        "u1": "who developed the World Wide Web",
+        "u1_duplicate": "creator of the World Wide Web",
+        "system_q1": "The World Wide Web was developed by Tim Berners-Lee."
+    },
+    {
+        "u0": "What are the causes of the French Revolution?",
+        "u0_duplicate": "Explain the factors leading to the French Revolution.",
+        "system_q0": "The French Revolution, which began in 1789, was caused by a combination of social, political, and economic factors. Socially, the population was divided into three estates, with the Third Estate (commoners) bearing the brunt of taxation and having little political power. Politically, the monarchy's absolutism and the influence of Enlightenment ideas promoted calls for equality and democratic governance. Economically, France faced financial crises due to overspending, involvement in wars, and poor harvests, which led to widespread poverty and hunger.",
+        "u1": "when did it begin",
+        "u1_duplicate": "start year of the revolution",
+        "system_q1": "The French Revolution began in 1789."
+    },
+    {
+        "u0": "Describe the structure of the human heart.",
+        "u0_duplicate": "Can you explain the human heart's structure?",
+        "system_q0": "The human heart is a muscular organ roughly the size of a fist, located in the chest cavity. It consists of four chambers: two upper chambers called atria and two lower chambers called ventricles. The right side of the heart receives deoxygenated blood and pumps it to the lungs, while the left side receives oxygenated blood from the lungs and pumps it throughout the body. The heart is divided by a septum and is surrounded by a protective sac called the pericardium.",
+        "u1": "how many chambers does it have",
+        "u1_duplicate": "number of chambers in it",
+        "system_q1": "The human heart has four chambers."
+    },
+    {
+        "u0": "What is quantum computing?",
+        "u0_duplicate": "Explain quantum computing.",
+        "system_q0": "Quantum computing is a type of computing that uses quantum bits, or qubits, instead of classical bits. Qubits can represent and store information in both 0 and 1 simultaneously, thanks to a property called superposition. Quantum computers use quantum entanglement and quantum interference to process complex computations much faster than classical computers. This technology has the potential to revolutionize fields such as cryptography, optimization, and drug discovery.",
+        "u1": "what are qubits",
+        "u1_duplicate": "define qubits",
+        "system_q1": "Qubits are quantum bits that can represent and store information in both 0 and 1 simultaneously."
+    },
+    {
+        "u0": "Tell me about the Roman Empire.",
+        "u0_duplicate": "What do you know about the Roman Empire?",
+        "system_q0": "The Roman Empire was one of the largest and most influential empires in history, lasting from 27 BC to AD 476 in the West and until 1453 in the East (Byzantine Empire). It began with the rise of Augustus as the first emperor and saw tremendous expansion, encompassing much of Europe, North Africa, and parts of Asia. The empire is known for its contributions to law, architecture, engineering, and governance. The Western Roman Empire fell in AD 476 due to a combination of internal strife and invasions by barbarian tribes.",
+        "u1": "when did the Western Roman Empire fall",
+        "u1_duplicate": "fall year of the Western Roman Empire",
+        "system_q1": "The Western Roman Empire fell in AD 476."
+    },
+    {
+        "u0": "Explain the theory of evolution.",
+        "u0_duplicate": "What is the theory of evolution?",
+        "system_q0": "The theory of evolution, proposed by Charles Darwin in the 19th century, explains how species change over time through natural selection. According to this theory, individuals with traits better suited to their environment are more likely to survive and reproduce, passing those advantageous traits to their offspring. Over many generations, this process leads to the evolution of species. The theory of evolution is supported by evidence from a wide range of scientific disciplines, including paleontology, genetics, and comparative anatomy.",
+        "u1": "who proposed this theory",
+        "u1_duplicate": "theorist behind it",
+        "system_q1": "The theory of evolution was proposed by Charles Darwin."
+    },
+    {
+        "u0": "Describe the process of making chocolate.",
+        "u0_duplicate": "How is chocolate made?",
+        "system_q0": "The process of making chocolate begins with harvesting cacao pods from the cacao tree. The pods are opened to extract the beans, which are then fermented and dried. After drying, the beans are roasted to bring out their flavor. The roasted beans are cracked and winnowed to remove the shells, leaving behind cacao nibs. These nibs are ground into a paste called chocolate liquor, which can be separated into cocoa solids and cocoa butter. The ingredients are then blended, refined, conched, and tempered to produce different types of chocolate.",
+        "u1": "what happens after drying the beans",
+        "u1_duplicate": "post-drying process",
+        "system_q1": "After drying, the beans are roasted to bring out their flavor."
+    },
+    {
+        "u0": "What is the importance of the Nile River to ancient Egypt?",
+        "u0_duplicate": "Explain the significance of the Nile River to ancient Egypt.",
+        "system_q0": "The Nile River was crucial to the development of ancient Egyptian civilization. It provided a reliable source of water in an otherwise arid region, enabling agriculture through irrigation. The annual flooding of the Nile deposited nutrient-rich silt onto the land, ensuring fertile soil for crops. The river also served as a major transportation route, facilitating trade and communication. Additionally, the Nile was central to Egyptian religion and mythology, symbolizing life and fertility.",
+        "u1": "how did it benefit agriculture",
+        "u1_duplicate": "its impact on farming",
+        "system_q1": "The Nile River's annual flooding deposited nutrient-rich silt onto the land, ensuring fertile soil for crops."
+    }
+,
+
+
+    {
+        "u0": "What are the key features of the Renaissance?",
+        "u0_duplicate": "Tell me about the Renaissance period.",
+        "system_q0": "The Renaissance was a cultural, artistic, political, and economic rebirth that occurred in Europe from the 14th to the 17th century. Key features of the Renaissance include a renewed interest in classical antiquity, humanism, and individual achievement. It saw significant developments in art, literature, science, and philosophy. Famous figures from this period include Leonardo da Vinci, Michelangelo, and Galileo. The Renaissance marked a transition from the medieval to the modern world.",
+        "u1": "name some famous figures",
+        "u1_duplicate": "notable people from that period",
+        "system_q1": "Famous figures from the Renaissance period include Leonardo da Vinci, Michelangelo, and Galileo."
+    },
+    {
+        "u0": "Explain the principles of plate tectonics.",
+        "u0_duplicate": "What are the main ideas behind plate tectonics?",
+        "system_q0": "Plate tectonics is a scientific theory explaining the movement of the Earth's lithosphere, which is divided into large plates. These plates float on the semi-fluid asthenosphere beneath them. The movement of plates is driven by forces such as mantle convection, slab pull, and ridge push. Plate interactions cause earthquakes, volcanic activity, mountain building, and oceanic trench formation. Major types of plate boundaries include divergent, convergent, and transform boundaries.",
+        "u1": "what causes earthquakes",
+        "u1_duplicate": "source of earthquakes",
+        "system_q1": "Earthquakes are caused by the interactions of tectonic plates at their boundaries."
+    },
+    {
+        "u0": "What is the function of mitochondria in cells?",
+        "u0_duplicate": "Tell me about the role of mitochondria.",
+        "system_q0": "Mitochondria are membrane-bound organelles found in the cytoplasm of eukaryotic cells. They are known as the powerhouses of the cell because they generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy. Mitochondria are also involved in other processes such as signaling, cellular differentiation, cell death, and the control of the cell cycle and cell growth.",
+        "u1": "why are they called powerhouses",
+        "u1_duplicate": "reason for the powerhouse nickname",
+        "system_q1": "Mitochondria are called powerhouses because they generate most of the cell's supply of ATP, used as a source of chemical energy."
+    },
+    {
+        "u0": "Describe the climate of Antarctica.",
+        "u0_duplicate": "What is the weather like in Antarctica?",
+        "system_q0": "Antarctica is the coldest, windiest, and driest continent on Earth. The climate is characterized by extremely low temperatures, with the interior experiencing average temperatures of -57°C (-70°F) in winter and -20°C (-4°F) in summer. Coastal areas are milder but still very cold. Antarctica is also considered a desert due to its low annual precipitation, most of which falls as snow. Winds can reach speeds of up to 200 mph (320 km/h) in some areas.",
+        "u1": "how cold is it in winter",
+        "u1_duplicate": "winter temperatures",
+        "system_q1": "In winter, the interior of Antarctica experiences average temperatures of -57°C (-70°F)."
+    },
+    {
+        "u0": "What were the main causes of World War I?",
+        "u0_duplicate": "Explain the reasons behind World War I.",
+        "system_q0": "World War I, which lasted from 1914 to 1918, was caused by a complex interplay of factors including militarism, alliances, imperialism, and nationalism. The immediate trigger was the assassination of Archduke Franz Ferdinand of Austria-Hungary in June 1914. This event set off a chain reaction of alliances being activated. Militarism led to an arms race, alliances created obligations for countries to support each other, imperialist ambitions fueled rivalries, and nationalist sentiments heightened tensions.",
+        "u1": "what event triggered the war",
+        "u1_duplicate": "immediate cause of the war",
+        "system_q1": "The immediate trigger of World War I was the assassination of Archduke Franz Ferdinand of Austria-Hungary in June 1914."
+    },
+    {
+        "u0": "Explain the significance of DNA.",
+        "u0_duplicate": "What is the importance of DNA?",
+        "system_q0": "DNA, or deoxyribonucleic acid, is the molecule that carries the genetic instructions used in the growth, development, functioning, and reproduction of all known living organisms and many viruses. DNA is composed of two strands that coil around each other to form a double helix. It contains the information necessary to build and maintain an organism. The sequences of DNA determine the genetic makeup of an organism, and its ability to replicate allows for genetic inheritance.",
+        "u1": "what does DNA stand for",
+        "u1_duplicate": "full form of DNA",
+        "system_q1": "DNA stands for deoxyribonucleic acid."
+    },
+    {
+        "u0": "Describe the water cycle.",
+        "u0_duplicate": "Can you explain the water cycle?",
+        "system_q0": "The water cycle, also known as the hydrological cycle, describes the continuous movement of water on, above, and below the surface of the Earth. The cycle involves processes such as evaporation, condensation, precipitation, infiltration, and runoff. Water evaporates from surfaces like oceans, lakes, and rivers, condenses to form clouds, precipitates as rain or snow, and returns to bodies of water or infiltrates into the ground. This cycle is essential for sustaining life and regulating climate.",
+        "u1": "what happens during evaporation",
+        "u1_duplicate": "process of evaporation",
+        "system_q1": "During evaporation, water changes from a liquid to a gas and rises into the atmosphere."
+    },
+    {
+        "u0": "What is artificial intelligence?",
+        "u0_duplicate": "Explain artificial intelligence.",
+        "system_q0": "Artificial intelligence (AI) is the field of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include problem-solving, learning, understanding natural language, recognizing patterns, and making decisions. AI systems can be divided into narrow AI, which is designed for a specific task, and general AI, which has the potential to perform any intellectual task a human can do. AI technologies are used in various applications, from virtual assistants to autonomous vehicles.",
+        "u1": "what are its types",
+        "u1_duplicate": "different types of it",
+        "system_q1": "AI systems can be divided into narrow AI, which is designed for a specific task, and general AI, which can perform any intellectual task a human can do."
+    },
+    {
+        "u0": "What is the significance of the Magna Carta?",
+        "u0_duplicate": "Tell me about the importance of the Magna Carta.",
+        "system_q0": "The Magna Carta, signed in 1215 by King John of England, is a foundational document in the development of modern democratic principles. It was created to make peace between the unpopular king and a group of rebel barons and established that everyone, including the king, was subject to the law. The Magna Carta introduced concepts such as due process, the right to a fair trial, and the idea that taxation should have the consent of the governed. It influenced the development of common law and constitutional law.",
+        "u1": "when was it signed",
+        "u1_duplicate": "signing year of the Magna Carta",
+        "system_q1": "The Magna Carta was signed in 1215."
+    },
+    {
+        "u0": "Describe the process of human digestion.",
+        "u0_duplicate": "How does human digestion work?",
+        "system_q0": "Human digestion is the process by which food is broken down into smaller components that can be absorbed and used by the body. It begins in the mouth, where food is chewed and mixed with saliva. The food then travels down the esophagus to the stomach, where it is mixed with gastric juices and broken down into a semi-liquid form called chyme. The chyme enters the small intestine, where most digestion and nutrient absorption occur with the help of enzymes and bile. Finally, the remaining indigestible parts move to the large intestine, where water is absorbed, and the waste is excreted.",
+        "u1": "where does nutrient absorption occur",
+        "u1_duplicate": "site of nutrient absorption",
+        "system_q1": "Most nutrient absorption occurs in the small intestine."
+    }
+,
+
+
+    {
+        "u0": "What is the theory of relativity?",
+        "u0_duplicate": "Explain the theory of relativity.",
+        "system_q0": "The theory of relativity, developed by Albert Einstein in the early 20th century, consists of two parts: special relativity and general relativity. Special relativity deals with objects moving at constant speeds, particularly at speeds close to the speed of light, and introduces concepts such as time dilation and length contraction. General relativity expands on this by incorporating gravity, describing it as the curvature of spacetime caused by mass and energy. These theories have significantly impacted our understanding of physics and the universe.",
+        "u1": "who developed it",
+        "u1_duplicate": "theorist behind it",
+        "system_q1": "The theory of relativity was developed by Albert Einstein."
+    },
+    {
+        "u0": "Tell me about the causes of the American Civil War.",
+        "u0_duplicate": "What led to the American Civil War?",
+        "system_q0": "The American Civil War, which took place from 1861 to 1865, was primarily caused by the long-standing controversy over slavery. The Southern states, which depended on an agricultural economy reliant on slave labor, wanted to maintain and expand slavery. The Northern states, where industrialization was more prominent, opposed the spread of slavery into new territories. Other contributing factors included economic differences, states' rights, and political conflicts. The election of Abraham Lincoln, who was seen as anti-slavery, led to the secession of Southern states and the outbreak of war.",
+        "u1": "when did it take place",
+        "u1_duplicate": "timeframe of the conflict",
+        "system_q1": "The American Civil War took place from 1861 to 1865."
+    },
+    {
+        "u0": "Explain the concept of supply and demand.",
+        "u0_duplicate": "What is supply and demand?",
+        "system_q0": "Supply and demand is a fundamental concept in economics that describes the relationship between the availability of a product (supply) and the desire for that product (demand). The law of supply states that, all else being equal, an increase in price results in an increase in the quantity supplied. The law of demand states that, all else being equal, an increase in price results in a decrease in the quantity demanded. The interaction of supply and demand determines the market price and quantity of goods sold.",
+        "u1": "what does the law of demand state",
+        "u1_duplicate": "demand principle explanation",
+        "system_q1": "The law of demand states that, all else being equal, an increase in price results in a decrease in the quantity demanded."
+    },
+    {
+        "u0": "Describe the structure of an atom.",
+        "u0_duplicate": "What is the atomic structure?",
+        "system_q0": "An atom is the basic unit of matter, consisting of a nucleus surrounded by electrons. The nucleus is made up of protons, which have a positive charge, and neutrons, which are neutral. Electrons, which have a negative charge, orbit the nucleus in various energy levels or shells. The number of protons in the nucleus defines the element, and the arrangement of electrons determines the atom's chemical properties.",
+        "u1": "what particles are in the nucleus",
+        "u1_duplicate": "nucleus particle types",
+        "system_q1": "The nucleus is made up of protons and neutrons."
+    },
+    {
+        "u0": "What are the main functions of the United Nations?",
+        "u0_duplicate": "Explain the roles of the United Nations.",
+        "system_q0": "The United Nations (UN) is an international organization founded in 1945 to promote peace, security, and cooperation among countries. Its main functions include maintaining international peace and security, promoting sustainable development, protecting human rights, providing humanitarian aid, and upholding international law. The UN has various specialized agencies and programs to address global issues such as health, education, and the environment.",
+        "u1": "when was it founded",
+        "u1_duplicate": "founding year information",
+        "system_q1": "The United Nations was founded in 1945."
+    },
+    {
+        "u0": "Tell me about the Industrial Revolution.",
+        "u0_duplicate": "What do you know about the Industrial Revolution?",
+        "system_q0": "The Industrial Revolution was a period of significant industrial and technological advancements that began in the late 18th century in Britain and spread to other parts of the world. It marked the transition from agrarian economies to industrialized and urban ones. Key developments included the invention of machinery such as the steam engine, improvements in textile manufacturing, and the rise of factories. This period also saw significant social, economic, and cultural changes, including urbanization, changes in labor systems, and the rise of a consumer culture.",
+        "u1": "where did it begin",
+        "u1_duplicate": "initial location of the revolution",
+        "system_q1": "The Industrial Revolution began in Britain."
+    },
+    {
+        "u0": "What is climate change?",
+        "u0_duplicate": "Explain climate change.",
+        "system_q0": "Climate change refers to long-term alterations in temperature, precipitation, wind patterns, and other aspects of the Earth's climate system. While climate change can result from natural factors such as volcanic eruptions and solar variations, recent changes are largely attributed to human activities. The burning of fossil fuels, deforestation, and industrial processes have increased concentrations of greenhouse gases in the atmosphere, leading to global warming and associated impacts such as more extreme weather events, rising sea levels, and shifts in ecosystems.",
+        "u1": "what causes recent changes",
+        "u1_duplicate": "recent change drivers",
+        "system_q1": "Recent climate changes are largely attributed to human activities such as the burning of fossil fuels, deforestation, and industrial processes."
+    },
+    {
+        "u0": "Describe the cultural significance of the Mona Lisa.",
+        "u0_duplicate": "What is the importance of the Mona Lisa?",
+        "system_q0": "The Mona Lisa, painted by Leonardo da Vinci, is one of the most famous and recognizable artworks in the world. Housed in the Louvre Museum in Paris, it is celebrated for its artistic mastery, including its composition, use of sfumato technique, and the enigmatic expression of the subject. The painting's cultural significance extends beyond art; it has become a symbol of artistic achievement, mystery, and cultural heritage. The Mona Lisa's fame has been amplified by its theft in 1911 and its influence on popular culture.",
+        "u1": "who painted it",
+        "u1_duplicate": "creator of the painting",
+        "system_q1": "The Mona Lisa was painted by Leonardo da Vinci."
+    },
+    {
+        "u0": "What is the Big Bang Theory?",
+        "u0_duplicate": "Explain the Big Bang Theory.",
+        "system_q0": "The Big Bang Theory is the prevailing cosmological model explaining the origin and expansion of the universe. According to this theory, the universe began as an extremely hot and dense point approximately 13.8 billion years ago. It has been expanding ever since. The theory is supported by various lines of evidence, including the observation of cosmic microwave background radiation, the distribution of galaxies, and the abundance of light elements. The Big Bang Theory provides a comprehensive explanation for the evolution of the universe from its earliest moments to its current state.",
+        "u1": "how old is the universe",
+        "u1_duplicate": "age estimation",
+        "system_q1": "According to the Big Bang Theory, the universe is approximately 13.8 billion years old."
+    },
+    {
+        "u0": "What is the importance of the Bill of Rights?",
+        "u0_duplicate": "Why is the Bill of Rights significant?",
+        "system_q0": "The Bill of Rights is the first ten amendments to the United States Constitution, ratified in 1791. It guarantees fundamental rights and protections to individuals, including freedom of speech, religion, and the press; the right to bear arms; and protections against unreasonable searches and seizures, cruel and unusual punishment, and self-incrimination. The Bill of Rights is significant because it establishes essential civil liberties and limits government power, forming a cornerstone of American democracy and legal tradition.",
+        "u1": "which amendments are included",
+        "u1_duplicate": "included amendments",
+        "system_q1": "The Bill of Rights includes the first ten amendments to the United States Constitution."
+    }
+,
+
+
+    {
+        "u0": "What is the theory of relativity?",
+        "u0_duplicate": "Explain the theory of relativity.",
+        "system_q0": "The theory of relativity, developed by Albert Einstein in the early 20th century, consists of two parts: special relativity and general relativity. Special relativity deals with objects moving at constant speeds, particularly at speeds close to the speed of light, and introduces concepts such as time dilation and length contraction. General relativity expands on this by incorporating gravity, describing it as the curvature of spacetime caused by mass and energy. These theories have significantly impacted our understanding of physics and the universe.",
+        "u1": "who developed it",
+        "u1_duplicate": "theorist behind it",
+        "system_q1": "The theory of relativity was developed by Albert Einstein."
+    },
+    {
+        "u0": "What are the main causes of World War II?",
+        "u0_duplicate": "Explain the reasons behind World War II.",
+        "system_q0": "World War II, which lasted from 1939 to 1945, was caused by a combination of factors including the unresolved issues from World War I, economic instability from the Great Depression, the rise of totalitarian regimes in Germany, Italy, and Japan, and the policy of appeasement. The immediate trigger was the invasion of Poland by Nazi Germany in September 1939, leading to a declaration of war by Britain and France.",
+        "u1": "when did it begin",
+        "u1_duplicate": "start year of the conflict",
+        "system_q1": "World War II began in 1939."
+    },
+    {
+        "u0": "Describe the significance of the Mona Lisa.",
+        "u0_duplicate": "What is the importance of the Mona Lisa?",
+        "system_q0": "The Mona Lisa, painted by Leonardo da Vinci, is one of the most famous and recognizable artworks in the world. Housed in the Louvre Museum in Paris, it is celebrated for its artistic mastery, including its composition, use of sfumato technique, and the enigmatic expression of the subject. The painting's cultural significance extends beyond art; it has become a symbol of artistic achievement, mystery, and cultural heritage. The Mona Lisa's fame has been amplified by its theft in 1911 and its influence on popular culture.",
+        "u1": "who painted it",
+        "u1_duplicate": "creator of the artwork",
+        "system_q1": "The Mona Lisa was painted by Leonardo da Vinci."
+    },
+    {
+        "u0": "What is blockchain technology?",
+        "u0_duplicate": "Explain blockchain technology.",
+        "system_q0": "Blockchain technology is a decentralized digital ledger used to record transactions across many computers. This technology ensures that the record cannot be altered retroactively without altering all subsequent blocks and the consensus of the network. It is the foundation for cryptocurrencies like Bitcoin and has applications in various fields such as finance, supply chain management, and healthcare due to its ability to provide transparency, security, and immutability.",
+        "u1": "what is its main use",
+        "u1_duplicate": "primary application of it",
+        "system_q1": "The main use of blockchain technology is in cryptocurrencies like Bitcoin, but it also has applications in finance, supply chain management, and healthcare."
+    },
+    {
+        "u0": "What led to the fall of the Roman Empire?",
+        "u0_duplicate": "Explain the reasons behind the fall of the Roman Empire.",
+        "system_q0": "The fall of the Roman Empire was a complex process that occurred over several centuries. Key factors included economic troubles, overreliance on slave labor, military overspending, and barbarian invasions. Additionally, political corruption, civil wars, and the division of the empire into Eastern and Western halves weakened its ability to respond to internal and external threats. The Western Roman Empire officially fell in AD 476 when the last emperor, Romulus Augustulus, was deposed by the Germanic chieftain Odoacer.",
+        "u1": "when did the Western Empire fall",
+        "u1_duplicate": "fall year of the Western Roman Empire",
+        "system_q1": "The Western Roman Empire fell in AD 476."
+    },
+    {
+        "u0": "What are the principles of democracy?",
+        "u0_duplicate": "Explain the core principles of democracy.",
+        "system_q0": "Democracy is a form of government where power is vested in the people, either directly or through elected representatives. Core principles of democracy include political equality, where every citizen has an equal vote; rule of law, where laws apply equally to all citizens; protection of human rights; and the presence of free and fair elections. Additional principles include majority rule with respect for minority rights, transparency, and accountability in governance.",
+        "u1": "what ensures political equality",
+        "u1_duplicate": "aspect of democracy ensuring equal vote",
+        "system_q1": "Political equality is ensured by the principle that every citizen has an equal vote."
+    },
+    {
+        "u0": "Describe the process of photosynthesis.",
+        "u0_duplicate": "How does photosynthesis work?",
+        "system_q0": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. This process occurs in chloroplasts, which contain the pigment chlorophyll. During photosynthesis, carbon dioxide and water are used to produce glucose and oxygen. The general equation for photosynthesis is: 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2.",
+        "u1": "what is produced",
+        "u1_duplicate": "output of the process",
+        "system_q1": "During photosynthesis, glucose and oxygen are produced."
+    },
+    {
+        "u0": "What is the significance of the Magna Carta?",
+        "u0_duplicate": "Tell me about the importance of the Magna Carta.",
+        "system_q0": "The Magna Carta, signed in 1215 by King John of England, is a foundational document in the development of modern democratic principles. It was created to make peace between the unpopular king and a group of rebel barons and established that everyone, including the king, was subject to the law. The Magna Carta introduced concepts such as due process, the right to a fair trial, and the idea that taxation should have the consent of the governed. It influenced the development of common law and constitutional law.",
+        "u1": "when was it signed",
+        "u1_duplicate": "signing year of the Magna Carta",
+        "system_q1": "The Magna Carta was signed in 1215."
+    },
+    {
+        "u0": "What is artificial intelligence?",
+        "u0_duplicate": "Explain artificial intelligence.",
+        "system_q0": "Artificial intelligence (AI) is the field of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include problem-solving, learning, understanding natural language, recognizing patterns, and making decisions. AI systems can be divided into narrow AI, which is designed for a specific task, and general AI, which has the potential to perform any intellectual task a human can do. AI technologies are used in various applications, from virtual assistants to autonomous vehicles.",
+        "u1": "what are its types",
+        "u1_duplicate": "different types of it",
+        "system_q1": "AI systems can be divided into narrow AI, which is designed for a specific task, and general AI, which can perform any intellectual task a human can do."
+    },
+    {
+        "u0": "What is climate change?",
+        "u0_duplicate": "Explain climate change.",
+        "system_q0": "Climate change refers to long-term alterations in temperature, precipitation, wind patterns, and other aspects of the Earth's climate system. While climate change can result from natural factors such as volcanic eruptions and solar variations, recent changes are largely attributed to human activities. The burning of fossil fuels, deforestation, and industrial processes have increased concentrations of greenhouse gases in the atmosphere, leading to global warming and associated impacts such as more extreme weather events, rising sea levels, and shifts in ecosystems.",
+        "u1": "what causes recent changes",
+        "u1_duplicate": "recent change drivers",
+        "system_q1": "Recent climate changes are largely attributed to human activities such as the burning of fossil fuels, deforestation, and industrial processes."
+    },
+    {
+        "u0": "Describe the cultural significance of the Mona Lisa.",
+        "u0_duplicate": "What is the importance of the Mona Lisa?",
+        "system_q0": "The Mona Lisa, painted by Leonardo da Vinci, is one of the most famous and recognizable artworks in the world. Housed in the Louvre Museum in Paris, it is celebrated for its artistic mastery, including its composition, use of sfumato technique, and the enigmatic expression of the subject. The painting's cultural significance extends beyond art; it has become a symbol of artistic achievement, mystery, and cultural heritage. The Mona Lisa's fame has been amplified by its theft in 1911 and its influence on popular culture.",
+        "u1": "who painted it",
+        "u1_duplicate": "creator of the painting",
+        "system_q1": "The Mona Lisa was painted by Leonardo da Vinci."
+    },
+    {
+        "u0": "What is the Big Bang Theory?",
+        "u0_duplicate": "Explain the Big Bang Theory.",
+        "system_q0": "The Big Bang Theory is the prevailing cosmological model explaining the origin and expansion of the universe. According to this theory, the universe began as an extremely hot and dense point approximately 13.8 billion years ago. It has been expanding ever since. The theory is supported by various lines of evidence, including the observation of cosmic microwave background radiation, the distribution of galaxies, and the abundance of light elements. The Big Bang Theory provides a comprehensive explanation for the evolution of the universe from its earliest moments to its current state.",
+        "u1": "how old is the universe",
+        "u1_duplicate": "age estimation",
+        "system_q1": "According to the Big Bang Theory, the universe is approximately 13.8 billion years old."
+    },
+    {
+        "u0": "What is the importance of the Bill of Rights?",
+        "u0_duplicate": "Why is the Bill of Rights significant?",
+        "system_q0": "The Bill of Rights is the first ten amendments to the United States Constitution, ratified in 1791. It guarantees fundamental rights and protections to individuals, including freedom of speech, religion, and the press; the right to bear arms; and protections against unreasonable searches and seizures, cruel and unusual punishment, and self-incrimination. The Bill of Rights is significant because it establishes essential civil liberties and limits government power, forming a cornerstone of American democracy and legal tradition.",
+        "u1": "which amendments are included",
+        "u1_duplicate": "included amendments",
+        "system_q1": "The Bill of Rights includes the first ten amendments to the United States Constitution."
+    },
+    {
+        "u0": "Describe the structure of the human heart.",
+        "u0_duplicate": "Can you explain the human heart's structure?",
+        "system_q0": "The human heart is a muscular organ roughly the size of a fist, located in the chest cavity. It consists of four chambers: two upper chambers called atria and two lower chambers called ventricles. The right side of the heart receives deoxygenated blood and pumps it to the lungs, while the left side receives oxygenated blood from the lungs and pumps it throughout the body. The heart is divided by a septum and is surrounded by a protective sac called the pericardium.",
+        "u1": "how many chambers does it have",
+        "u1_duplicate": "number of chambers in it",
+        "system_q1": "The human heart has four chambers."
+    },
+    {
+        "u0": "What are the causes of the French Revolution?",
+        "u0_duplicate": "Explain the factors leading to the French Revolution.",
+        "system_q0": "The French Revolution, which began in 1789, was caused by a combination of social, political, and economic factors. Socially, the population was divided into three estates, with the Third Estate (commoners) bearing the brunt of taxation and having little political power. Politically, the monarchy's absolutism and the influence of Enlightenment ideas promoted calls for equality and democratic governance. Economically, France faced financial crises due to overspending, involvement in wars, and poor harvests, which led to widespread poverty and hunger.",
+        "u1": "when did it begin",
+        "u1_duplicate": "start year of the revolution",
+        "system_q1": "The French Revolution began in 1789."
+    },
+    {
+        "u0": "What is quantum computing?",
+        "u0_duplicate": "Explain quantum computing.",
+        "system_q0": "Quantum computing is a type of computing that uses quantum bits, or qubits, instead of classical bits. Qubits can represent and store information in both 0 and 1 simultaneously, thanks to a property called superposition. Quantum computers use quantum entanglement and quantum interference to process complex computations much faster than classical computers. This technology has the potential to revolutionize fields such as cryptography, optimization, and drug discovery.",
+        "u1": "what are qubits",
+        "u1_duplicate": "define qubits",
+        "system_q1": "Qubits are quantum bits that can represent and store information in both 0 and 1 simultaneously."
+    },
+    {
+        "u0": "What is the significance of the Moon landing?",
+        "u0_duplicate": "Tell me about the importance of the Moon landing.",
+        "system_q0": "The Moon landing refers to the event on July 20, 1969, when Apollo 11 successfully landed on the Moon, and astronauts Neil Armstrong and Buzz Aldrin became the first humans to walk on its surface. This event is significant as it represented a monumental achievement in space exploration and a major victory in the space race between the United States and the Soviet Union. It demonstrated the potential of human ingenuity and technology and has had lasting impacts on science, technology, and culture.",
+        "u1": "who were the first humans to walk on the moon",
+        "u1_duplicate": "first moonwalkers",
+        "system_q1": "The first humans to walk on the Moon were Neil Armstrong and Buzz Aldrin."
+    },
+    {
+        "u0": "What is the importance of the Nile River to ancient Egypt?",
+        "u0_duplicate": "Explain the significance of the Nile River to ancient Egypt.",
+        "system_q0": "The Nile River was crucial to the development of ancient Egyptian civilization. It provided a reliable source of water in an otherwise arid region, enabling agriculture through irrigation. The annual flooding of the Nile deposited nutrient-rich silt onto the land, ensuring fertile soil for crops. The river also served as a major transportation route, facilitating trade and communication. Additionally, the Nile was central to Egyptian religion and mythology, symbolizing life and fertility.",
+        "u1": "how did it benefit agriculture",
+        "u1_duplicate": "its impact on farming",
+        "system_q1": "The Nile River's annual flooding deposited nutrient-rich silt onto the land, ensuring fertile soil for crops."
+    },
+    {
+        "u0": "What were the main causes of the American Revolution?",
+        "u0_duplicate": "Explain the reasons behind the American Revolution.",
+        "system_q0": "The American Revolution, which lasted from 1775 to 1783, was primarily caused by growing tensions between the American colonies and the British government. Key issues included taxation without representation, restrictions on colonial trade and manufacturing, and the quartering of British troops in American homes. Events such as the Boston Massacre, the Boston Tea Party, and the Intolerable Acts further fueled colonial resentment. The desire for independence and self-governance led to the colonies declaring independence in 1776.",
+        "u1": "when did it start",
+        "u1_duplicate": "start year of the revolution",
+        "system_q1": "The American Revolution started in 1775."
+    },
+    {
+        "u0": "Explain the significance of the Rosetta Stone.",
+        "u0_duplicate": "What is the importance of the Rosetta Stone?",
+        "system_q0": "The Rosetta Stone is a granodiorite stele discovered in 1799 in Egypt. It is inscribed with three versions of a decree issued in Memphis in 196 BC during the Ptolemaic dynasty. The top and middle texts are in Ancient Egyptian using hieroglyphic and Demotic scripts, while the bottom is in Ancient Greek. The Rosetta Stone was instrumental in deciphering Egyptian hieroglyphs, leading to significant advancements in our understanding of ancient Egyptian language and culture.",
+        "u1": "when was it discovered",
+        "u1_duplicate": "discovery year of the stone",
+        "system_q1": "The Rosetta Stone was discovered in 1799."
+    },
+    {
+        "u0": "What is the significance of the Great Wall of China?",
+        "u0_duplicate": "Tell me about the importance of the Great Wall of China.",
+        "system_q0": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against various nomadic groups from the Eurasian Steppe. Several walls were built as early as the 7th century BC, but the most well-known sections were built by the Ming Dynasty (1368–1644). The Great Wall stretches over 13,000 miles and is a UNESCO World Heritage site.",
+        "u1": "which dynasty built most sections",
+        "u1_duplicate": "main dynasty responsible for its construction",
+        "system_q1": "The most well-known sections of the Great Wall were built by the Ming Dynasty."
+    },
+    {
+        "u0": "What is the function of mitochondria in cells?",
+        "u0_duplicate": "Tell me about the role of mitochondria.",
+        "system_q0": "Mitochondria are membrane-bound organelles found in the cytoplasm of eukaryotic cells. They are known as the powerhouses of the cell because they generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy. Mitochondria are also involved in other processes such as signaling, cellular differentiation, cell death, and the control of the cell cycle and cell growth.",
+        "u1": "why are they called powerhouses",
+        "u1_duplicate": "reason for the powerhouse nickname",
+        "system_q1": "Mitochondria are called powerhouses because they generate most of the cell's supply of ATP, used as a source of chemical energy."
+    },
+    {
+        "u0": "Describe the process of human digestion.",
+        "u0_duplicate": "How does human digestion work?",
+        "system_q0": "Human digestion is the process by which food is broken down into smaller components that can be absorbed and used by the body. It begins in the mouth, where food is chewed and mixed with saliva. The food then travels down the esophagus to the stomach, where it is mixed with gastric juices and broken down into a semi-liquid form called chyme. The chyme enters the small intestine, where most digestion and nutrient absorption occur with the help of enzymes and bile. Finally, the remaining indigestible parts move to the large intestine, where water is absorbed, and the waste is excreted.",
+        "u1": "where does nutrient absorption occur",
+        "u1_duplicate": "site of nutrient absorption",
+        "system_q1": "Most nutrient absorption occurs in the small intestine."
+    },
+    {
+        "u0": "Explain the process of photosynthesis.",
+        "u0_duplicate": "How does photosynthesis work?",
+        "system_q0": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. This process occurs in chloroplasts, which contain the pigment chlorophyll. During photosynthesis, carbon dioxide and water are used to produce glucose and oxygen. The general equation for photosynthesis is: 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2.",
+        "u1": "what is produced during this process",
+        "u1_duplicate": "end products of this process",
+        "system_q1": "During photosynthesis, glucose and oxygen are produced."
+    }
+
+,
+
+    {
+        "u0": "What are the principles of democracy?",
+        "u0_duplicate": "Explain the core principles of democracy.",
+        "system_q0": "Democracy is a form of government where power is vested in the people, either directly or through elected representatives. Core principles of democracy include political equality, where every citizen has an equal vote; rule of law, where laws apply equally to all citizens; protection of human rights; and the presence of free and fair elections. Additional principles include majority rule with respect for minority rights, transparency, and accountability in governance.",
+        "u1": "what ensures political equality",
+        "u1_duplicate": "aspect of democracy ensuring equal vote",
+        "system_q1": "Political equality is ensured by the principle that every citizen has an equal vote."
+    },
+    {
+        "u0": "What caused the Great Depression?",
+        "u0_duplicate": "Explain the reasons behind the Great Depression.",
+        "system_q0": "The Great Depression, which began in 1929 and lasted through the 1930s, was caused by a combination of factors including the stock market crash of 1929, bank failures, reduced consumer spending, and poor economic policies. The crash led to a loss of wealth and a decline in consumer confidence. Bank failures further reduced the money supply, and decreased spending led to a drop in production and rising unemployment. The Great Depression had widespread economic, social, and political impacts worldwide.",
+        "u1": "what happened in 1929",
+        "u1_duplicate": "event in 1929",
+        "system_q1": "The stock market crash of 1929 was a key event that triggered the Great Depression."
+    },
+    {
+        "u0": "What is the importance of the United Nations?",
+        "u0_duplicate": "Why is the United Nations significant?",
+        "system_q0": "The United Nations (UN) is an international organization founded in 1945 to promote peace, security, and cooperation among countries. Its main functions include maintaining international peace and security, promoting sustainable development, protecting human rights, providing humanitarian aid, and upholding international law. The UN has various specialized agencies and programs to address global issues such as health, education, and the environment.",
+        "u1": "what does it do for peace",
+        "u1_duplicate": "peacekeeping efforts",
+        "system_q1": "The UN maintains international peace and security through peacekeeping missions, conflict resolution, and promoting diplomatic efforts."
+    },
+    {
+        "u0": "What is the significance of the Treaty of Versailles?",
+        "u0_duplicate": "Explain the importance of the Treaty of Versailles.",
+        "system_q0": "The Treaty of Versailles was signed on June 28, 1919, and officially ended World War I. It imposed heavy reparations and territorial losses on Germany, which many historians believe contributed to the economic hardship and political instability that led to World War II. The treaty also established the League of Nations, an international organization aimed at maintaining peace. However, its harsh terms and the exclusion of several key nations from negotiations led to widespread dissatisfaction.",
+        "u1": "when was it signed",
+        "u1_duplicate": "signing date of the treaty",
+        "system_q1": "The Treaty of Versailles was signed on June 28, 1919."
+    },
+    {
+        "u0": "What are the benefits of renewable energy?",
+        "u0_duplicate": "Explain the advantages of renewable energy.",
+        "system_q0": "Renewable energy sources, such as solar, wind, hydro, and geothermal, offer numerous benefits. They produce little to no greenhouse gas emissions, reducing the impact on climate change. Renewable energy is sustainable, meaning it won't run out over time, unlike fossil fuels. Additionally, renewable energy can reduce dependence on imported fuels, enhance energy security, and create jobs in manufacturing, installation, and maintenance of renewable energy systems.",
+        "u1": "how does it impact climate",
+        "u1_duplicate": "effect on climate change",
+        "system_q1": "Renewable energy produces little to no greenhouse gas emissions, which helps reduce the impact on climate change."
+    },
+    {
+        "u0": "What is the history of the Internet?",
+        "u0_duplicate": "Explain the background of the Internet.",
+        "system_q0": "The Internet's history dates back to the 1960s when the U.S. Department of Defense developed ARPANET, the precursor to the modern Internet, to enable secure communication between different research institutions. In the 1980s, the development of the TCP/IP protocol suite standardized networking, allowing different networks to interconnect. The World Wide Web, developed by Tim Berners-Lee in 1989, revolutionized the Internet by enabling the easy sharing and access of information through web browsers.",
+        "u1": "who developed the World Wide Web",
+        "u1_duplicate": "creator of the World Wide Web",
+        "system_q1": "The World Wide Web was developed by Tim Berners-Lee."
+    },
+    {
+        "u0": "What is the significance of DNA?",
+        "u0_duplicate": "What is the importance of DNA?",
+        "system_q0": "DNA, or deoxyribonucleic acid, is the molecule that carries the genetic instructions used in the growth, development, functioning, and reproduction of all known living organisms and many viruses. DNA is composed of two strands that coil around each other to form a double helix. It contains the information necessary to build and maintain an organism. The sequences of DNA determine the genetic makeup of an organism, and its ability to replicate allows for genetic inheritance.",
+        "u1": "what does DNA stand for",
+        "u1_duplicate": "full form of DNA",
+        "system_q1": "DNA stands for deoxyribonucleic acid."
+    },
+    {
+        "u0": "What is the significance of the Renaissance?",
+        "u0_duplicate": "Tell me about the Renaissance period.",
+        "system_q0": "The Renaissance was a cultural, artistic, political, and economic rebirth that occurred in Europe from the 14th to the 17th century. Key features of the Renaissance include a renewed interest in classical antiquity, humanism, and individual achievement. It saw significant developments in art, literature, science, and philosophy. Famous figures from this period include Leonardo da Vinci, Michelangelo, and Galileo. The Renaissance marked a transition from the medieval to the modern world.",
+        "u1": "name some famous figures",
+        "u1_duplicate": "notable people from that period",
+        "system_q1": "Famous figures from the Renaissance period include Leonardo da Vinci, Michelangelo, and Galileo."
+    },
+    {
+        "u0": "What is the function of the United States Supreme Court?",
+        "u0_duplicate": "Explain the role of the United States Supreme Court.",
+        "system_q0": "The United States Supreme Court is the highest court in the federal judiciary of the United States. Its main functions are to interpret the Constitution, review laws, and decide cases involving states' rights. The Court has the power of judicial review, allowing it to invalidate laws and executive actions that it deems unconstitutional. It also serves as the final arbiter of disputes between states and federal authorities, and its decisions set precedents that guide the interpretation of laws across the country.",
+        "u1": "what is judicial review",
+        "u1_duplicate": "explain judicial review",
+        "system_q1": "Judicial review is the power of the Supreme Court to invalidate laws and executive actions that it deems unconstitutional."
+    },
+    {
+        "u0": "Describe the history of the printing press.",
+        "u0_duplicate": "Explain the development of the printing press.",
+        "system_q0": "The printing press, invented by Johannes Gutenberg in the mid-15th century, revolutionized the production and distribution of books. Gutenberg's press used movable type, which allowed for the mass production of texts. This invention greatly facilitated the spread of knowledge, literacy, and education, contributing to the Renaissance, the Reformation, and the Scientific Revolution. The printing press is considered one of the most important inventions in human history.",
+        "u1": "who invented it",
+        "u1_duplicate": "inventor of the press",
+        "system_q1": "The printing press was invented by Johannes Gutenberg."
+    },
+    {
+        "u0": "What is the purpose of the European Union?",
+        "u0_duplicate": "Explain the main goals of the European Union.",
+        "system_q0": "The European Union (EU) is a political and economic union of 27 member states located primarily in Europe. Its main goals are to promote economic cooperation and integration, ensure the free movement of people, goods, services, and capital, and maintain peace and stability in the region. The EU also aims to uphold common policies on various issues, including trade, agriculture, fisheries, and regional development. Additionally, it works to promote human rights, democracy, and environmental protection.",
+        "u1": "how many member states are there",
+        "u1_duplicate": "current number of member states",
+        "system_q1": "The European Union has 27 member states."
+    },
+    {
+        "u0": "What is the significance of the Silk Road?",
+        "u0_duplicate": "Explain the importance of the Silk Road.",
+        "system_q0": "The Silk Road was an ancient network of trade routes that connected the East and West, facilitating the exchange of goods, culture, and ideas. It spanned from China to the Mediterranean, passing through regions such as Central Asia, Persia, and the Indian subcontinent. The Silk Road played a crucial role in the economic, cultural, and political interactions between these regions for over a millennium. It enabled the spread of goods such as silk, spices, and precious metals, as well as the exchange of knowledge, technology, and religious beliefs.",
+        "u1": "what goods were traded",
+        "u1_duplicate": "items exchanged on the route",
+        "system_q1": "Goods traded on the Silk Road included silk, spices, and precious metals."
+    },
+    {
+        "u0": "What was the impact of the Industrial Revolution?",
+        "u0_duplicate": "Explain the effects of the Industrial Revolution.",
+        "system_q0": "The Industrial Revolution, which began in the late 18th century, had a profound impact on society, economy, and technology. It marked the transition from agrarian economies to industrialized ones, with significant advancements in manufacturing, transportation, and communication. The revolution led to urbanization, as people moved to cities for work, and to the rise of factory-based production. It also brought about social changes, including the development of a working class and changes in labor practices. The Industrial Revolution set the stage for modern economic growth and technological innovation.",
+        "u1": "how did it change labor practices",
+        "u1_duplicate": "effect on labor",
+        "system_q1": "The Industrial Revolution changed labor practices by shifting production from manual labor to machine-based manufacturing and by creating factory-based jobs."
+    },
+    {
+        "u0": "What is the significance of the Battle of Gettysburg?",
+        "u0_duplicate": "Explain the importance of the Battle of Gettysburg.",
+        "system_q0": "The Battle of Gettysburg, fought from July 1 to 3, 1863, was a turning point in the American Civil War. It was the largest battle of the war and resulted in a significant defeat for the Confederate Army, which halted their invasion of the North. The Union victory at Gettysburg boosted Northern morale and is often considered the beginning of the end for the Confederacy. The battle also led to President Abraham Lincoln's famous Gettysburg Address, which emphasized the principles of liberty and equality.",
+        "u1": "when did it take place",
+        "u1_duplicate": "date of the battle",
+        "system_q1": "The Battle of Gettysburg took place from July 1 to 3, 1863."
+    },
+    {
+        "u0": "What are the causes of climate change?",
+        "u0_duplicate": "Explain the reasons behind climate change.",
+        "system_q0": "Climate change is primarily caused by human activities that increase the concentration of greenhouse gases in the atmosphere. Major sources include the burning of fossil fuels (such as coal, oil, and natural gas) for energy, deforestation, industrial processes, and agricultural practices. These activities release carbon dioxide, methane, and other greenhouse gases, which trap heat in the atmosphere and lead to global warming. Natural factors, such as volcanic eruptions and solar radiation variations, can also influence climate, but their impact is relatively small compared to human activities.",
+        "u1": "what gases are involved",
+        "u1_duplicate": "greenhouse gases responsible",
+        "system_q1": "Greenhouse gases involved in climate change include carbon dioxide, methane, and others."
+    },
+    {
+        "u0": "What was the impact of the Black Death?",
+        "u0_duplicate": "Explain the effects of the Black Death.",
+        "system_q0": "The Black Death, which struck Europe in the mid-14th century, was one of the deadliest pandemics in human history. It was caused by the bacterium Yersinia pestis and transmitted through fleas on rats. The pandemic resulted in the deaths of an estimated 25-30 million people, or about one-third of Europe's population at the time. The Black Death had profound social, economic, and cultural impacts, including labor shortages, changes in land use, and shifts in power dynamics. It also led to a decline in the influence of the Church and contributed to social upheavals and changes in the feudal system.",
+        "u1": "how many people died",
+        "u1_duplicate": "death toll",
+        "system_q1": "The Black Death resulted in the deaths of an estimated 25-30 million people."
+    },
+    {
+        "u0": "What is the function of the International Monetary Fund?",
+        "u0_duplicate": "Explain the role of the International Monetary Fund.",
+        "system_q0": "The International Monetary Fund (IMF) is an international organization established in 1944 to promote global economic stability and growth. Its main functions include providing financial assistance to member countries facing balance of payments problems, offering policy advice, and conducting economic surveillance. The IMF also provides technical assistance and training to help countries improve their economic management. By fostering international monetary cooperation, the IMF aims to secure financial stability, facilitate international trade, promote high employment, and reduce poverty around the world.",
+        "u1": "what kind of assistance does it provide",
+        "u1_duplicate": "type of help offered",
+        "system_q1": "The IMF provides financial assistance, policy advice, and technical assistance to member countries."
+    },
+    {
+        "u0": "What was the significance of the Emancipation Proclamation?",
+        "u0_duplicate": "Explain the importance of the Emancipation Proclamation.",
+        "system_q0": "The Emancipation Proclamation, issued by President Abraham Lincoln on January 1, 1863, was a landmark executive order that declared the freedom of all enslaved people in Confederate-held territory. It marked a turning point in the American Civil War by transforming the fight to preserve the Union into a battle for human liberation. The proclamation also allowed African Americans to join the Union Army and Navy, bolstering the Union's manpower. While it did not immediately free all enslaved individuals, it set the stage for the abolition of slavery and the eventual passage of the 13th Amendment.",
+        "u1": "who issued it",
+        "u1_duplicate": "issuer of the proclamation",
+        "system_q1": "The Emancipation Proclamation was issued by President Abraham Lincoln."
+    },
+    {
+        "u0": "What are the key features of the Renaissance?",
+        "u0_duplicate": "Tell me about the Renaissance period.",
+        "system_q0": "The Renaissance was a cultural, artistic, political, and economic rebirth that occurred in Europe from the 14th to the 17th century. Key features of the Renaissance include a renewed interest in classical antiquity, humanism, and individual achievement. It saw significant developments in art, literature, science, and philosophy. Famous figures from this period include Leonardo da Vinci, Michelangelo, and Galileo. The Renaissance marked a transition from the medieval to the modern world.",
+        "u1": "name some famous figures",
+        "u1_duplicate": "notable people from that period",
+        "system_q1": "Famous figures from the Renaissance period include Leonardo da Vinci, Michelangelo, and Galileo."
+    },
+    {
+        "u0": "What are the main components of a computer?",
+        "u0_duplicate": "Explain the key parts of a computer.",
+        "system_q0": "A computer consists of several main components, each performing specific functions. The central processing unit (CPU) is the brain of the computer, responsible for executing instructions. The motherboard connects all components and allows them to communicate. Random access memory (RAM) is used for temporary storage of data that the CPU needs to access quickly. The hard drive or solid-state drive (SSD) provides long-term storage for data and programs. Other essential components include the power supply, graphics card, and input/output devices such as the keyboard, mouse, and monitor.",
+        "u1": "what is the CPU's function",
+        "u1_duplicate": "role of the CPU",
+        "system_q1": "The CPU is responsible for executing instructions and is considered the brain of the computer."
+    },
+    {
+        "u0": "What is the importance of the Magna Carta?",
+        "u0_duplicate": "Tell me about the importance of the Magna Carta.",
+        "system_q0": "The Magna Carta, signed in 1215 by King John of England, is a foundational document in the development of modern democratic principles. It was created to make peace between the unpopular king and a group of rebel barons and established that everyone, including the king, was subject to the law. The Magna Carta introduced concepts such as due process, the right to a fair trial, and the idea that taxation should have the consent of the governed. It influenced the development of common law and constitutional law.",
+        "u1": "when was it signed",
+        "u1_duplicate": "signing year of the Magna Carta",
+        "system_q1": "The Magna Carta was signed in 1215."
+    },
+    {
+        "u0": "What is quantum computing?",
+        "u0_duplicate": "Explain quantum computing.",
+        "system_q0": "Quantum computing is a type of computing that uses quantum bits, or qubits, instead of classical bits. Qubits can represent and store information in both 0 and 1 simultaneously, thanks to a property called superposition. Quantum computers use quantum entanglement and quantum interference to process complex computations much faster than classical computers. This technology has the potential to revolutionize fields such as cryptography, optimization, and drug discovery.",
+        "u1": "what are qubits",
+        "u1_duplicate": "define qubits",
+        "system_q1": "Qubits are quantum bits that can represent and store information in both 0 and 1 simultaneously."
+    },
+    {
+        "u0": "What is the history of the Internet?",
+        "u0_duplicate": "Explain the background of the Internet.",
+        "system_q0": "The Internet's history dates back to the 1960s when the U.S. Department of Defense developed ARPANET, the precursor to the modern Internet, to enable secure communication between different research institutions. In the 1980s, the development of the TCP/IP protocol suite standardized networking, allowing different networks to interconnect. The World Wide Web, developed by Tim Berners-Lee in 1989, revolutionized the Internet by enabling the easy sharing and access of information through web browsers.",
+        "u1": "who developed the World Wide Web",
+        "u1_duplicate": "creator of the World Wide Web",
+        "system_q1": "The World Wide Web was developed by Tim Berners-Lee."
+    },
+    {
+        "u0": "What is the significance of DNA?",
+        "u0_duplicate": "What is the importance of DNA?",
+        "system_q0": "DNA, or deoxyribonucleic acid, is the molecule that carries the genetic instructions used in the growth, development, functioning, and reproduction of all known living organisms and many viruses. DNA is composed of two strands that coil around each other to form a double helix. It contains the information necessary to build and maintain an organism. The sequences of DNA determine the genetic makeup of an organism, and its ability to replicate allows for genetic inheritance.",
+        "u1": "what does DNA stand for",
+        "u1_duplicate": "full form of DNA",
+        "system_q1": "DNA stands for deoxyribonucleic acid."
+    },
+    {
+        "u0": "What is artificial intelligence?",
+        "u0_duplicate": "Explain artificial intelligence.",
+        "system_q0": "Artificial intelligence (AI) is the field of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include problem-solving, learning, understanding natural language, recognizing patterns, and making decisions. AI systems can be divided into narrow AI, which is designed for a specific task, and general AI, which has the potential to perform any intellectual task a human can do. AI technologies are used in various applications, from virtual assistants to autonomous vehicles.",
+        "u1": "what are its types",
+        "u1_duplicate": "different types of it",
+        "system_q1": "AI systems can be divided into narrow AI, which is designed for a specific task, and general AI, which can perform any intellectual task a human can do."
+    },
+    {
+        "u0": "What is the Big Bang Theory?",
+        "u0_duplicate": "Explain the Big Bang Theory.",
+        "system_q0": "The Big Bang Theory is the prevailing cosmological model explaining the origin and expansion of the universe. According to this theory, the universe began as an extremely hot and dense point approximately 13.8 billion years ago. It has been expanding ever since. The theory is supported by various lines of evidence, including the observation of cosmic microwave background radiation, the distribution of galaxies, and the abundance of light elements. The Big Bang Theory provides a comprehensive explanation for the evolution of the universe from its earliest moments to its current state.",
+        "u1": "how old is the universe",
+        "u1_duplicate": "age estimation",
+        "system_q1": "According to the Big Bang Theory, the universe is approximately 13.8 billion years old."
+    },
+    {
+        "u0": "What is the function of mitochondria in cells?",
+        "u0_duplicate": "Tell me about the role of mitochondria.",
+        "system_q0": "Mitochondria are membrane-bound organelles found in the cytoplasm of eukaryotic cells. They are known as the powerhouses of the cell because they generate most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy. Mitochondria are also involved in other processes such as signaling, cellular differentiation, cell death, and the control of the cell cycle and cell growth.",
+        "u1": "why are they called powerhouses",
+        "u1_duplicate": "reason for the powerhouse nickname",
+        "system_q1": "Mitochondria are called powerhouses because they generate most of the cell's supply of ATP, used as a source of chemical energy."
+    },
+    {
+        "u0": "What are the main causes of World War II?",
+        "u0_duplicate": "Explain the reasons behind World War II.",
+        "system_q0": "World War II, which lasted from 1939 to 1945, was caused by a combination of factors including the unresolved issues from World War I, economic instability from the Great Depression, the rise of totalitarian regimes in Germany, Italy, and Japan, and the policy of appeasement. The immediate trigger was the invasion of Poland by Nazi Germany in September 1939, leading to a declaration of war by Britain and France.",
+        "u1": "when did it begin",
+        "u1_duplicate": "start year of the conflict",
+        "system_q1": "World War II began in 1939."
+    },
+    {
+        "u0": "Describe the significance of the Mona Lisa.",
+        "u0_duplicate": "What is the importance of the Mona Lisa?",
+        "system_q0": "The Mona Lisa, painted by Leonardo da Vinci, is one of the most famous and recognizable artworks in the world. Housed in the Louvre Museum in Paris, it is celebrated for its artistic mastery, including its composition, use of sfumato technique, and the enigmatic expression of the subject. The painting's cultural significance extends beyond art; it has become a symbol of artistic achievement, mystery, and cultural heritage. The Mona Lisa's fame has been amplified by its theft in 1911 and its influence on popular culture.",
+        "u1": "who painted it",
+        "u1_duplicate": "creator of the artwork",
+        "system_q1": "The Mona Lisa was painted by Leonardo da Vinci."
+    },
+    {
+        "u0": "What is blockchain technology?",
+        "u0_duplicate": "Explain blockchain technology.",
+        "system_q0": "Blockchain technology is a decentralized digital ledger used to record transactions across many computers. This technology ensures that the record cannot be altered retroactively without altering all subsequent blocks and the consensus of the network. It is the foundation for cryptocurrencies like Bitcoin and has applications in various fields such as finance, supply chain management, and healthcare due to its ability to provide transparency, security, and immutability.",
+        "u1": "what is its main use",
+        "u1_duplicate": "primary application of it",
+        "system_q1": "The main use of blockchain technology is in cryptocurrencies like Bitcoin, but it also has applications in finance, supply chain management, and healthcare."
+    },
+    {
+        "u0": "What led to the fall of the Roman Empire?",
+        "u0_duplicate": "Explain the reasons behind the fall of the Roman Empire.",
+        "system_q0": "The fall of the Roman Empire was a complex process that occurred over several centuries. Key factors included economic troubles, overreliance on slave labor, military overspending, and barbarian invasions. Additionally, political corruption, civil wars, and the division of the empire into Eastern and Western halves weakened its ability to respond to internal and external threats. The Western Roman Empire officially fell in AD 476 when the last emperor, Romulus Augustulus, was deposed by the Germanic chieftain Odoacer.",
+        "u1": "when did the Western Empire fall",
+        "u1_duplicate": "fall year of the Western Roman Empire",
+        "system_q1": "The Western Roman Empire fell in AD 476."
+    },
+    {
+        "u0": "What is the significance of the Silk Road?",
+        "u0_duplicate": "Explain the importance of the Silk Road.",
+        "system_q0": "The Silk Road was an ancient network of trade routes that connected the East and West, facilitating the exchange of goods, culture, and ideas. It spanned from China to the Mediterranean, passing through regions such as Central Asia, Persia, and the Indian subcontinent. The Silk Road played a crucial role in the economic, cultural, and political interactions between these regions for over a millennium. It enabled the spread of goods such as silk, spices, and precious metals, as well as the exchange of knowledge, technology, and religious beliefs.",
+        "u1": "what goods were traded",
+        "u1_duplicate": "items exchanged on the route",
+        "system_q1": "Goods traded on the Silk Road included silk, spices, and precious metals."
+    },
+    {
+        "u0": "What was the impact of the Industrial Revolution?",
+        "u0_duplicate": "Explain the effects of the Industrial Revolution.",
+        "system_q0": "The Industrial Revolution, which began in the late 18th century, had a profound impact on society, economy, and technology. It marked the transition from agrarian economies to industrialized ones, with significant advancements in manufacturing, transportation, and communication. The revolution led to urbanization, as people moved to cities for work, and to the rise of factory-based production. It also brought about social changes, including the development of a working class and changes in labor practices. The Industrial Revolution set the stage for modern economic growth and technological innovation.",
+        "u1": "how did it change labor practices",
+        "u1_duplicate": "effect on labor",
+        "system_q1": "The Industrial Revolution changed labor practices by shifting production from manual labor to machine-based manufacturing and by creating factory-based jobs."
+    },
+    {
+        "u0": "What is the significance of the Battle of Gettysburg?",
+        "u0_duplicate": "Explain the importance of the Battle of Gettysburg.",
+        "system_q0": "The Battle of Gettysburg, fought from July 1 to 3, 1863, was a turning point in the American Civil War. It was the largest battle of the war and resulted in a significant defeat for the Confederate Army, which halted their invasion of the North. The Union victory at Gettysburg boosted Northern morale and is often considered the beginning of the end for the Confederacy. The battle also led to President Abraham Lincoln's famous Gettysburg Address, which emphasized the principles of liberty and equality.",
+        "u1": "when did it take place",
+        "u1_duplicate": "date of the battle",
+        "system_q1": "The Battle of Gettysburg took place from July 1 to 3, 1863."
+    },
+    {
+        "u0": "What are the causes of climate change?",
+        "u0_duplicate": "Explain the reasons behind climate change.",
+        "system_q0": "Climate change is primarily caused by human activities that increase the concentration of greenhouse gases in the atmosphere. Major sources include the burning of fossil fuels (such as coal, oil, and natural gas) for energy, deforestation, industrial processes, and agricultural practices. These activities release carbon dioxide, methane, and other greenhouse gases, which trap heat in the atmosphere and lead to global warming. Natural factors, such as volcanic eruptions and solar radiation variations, can also influence climate, but their impact is relatively small compared to human activities.",
+        "u1": "what gases are involved",
+        "u1_duplicate": "greenhouse gases responsible",
+        "system_q1": "Greenhouse gases involved in climate change include carbon dioxide, methane, and others."
+    },
+    {
+        "u0": "What was the impact of the Black Death?",
+        "u0_duplicate": "Explain the effects of the Black Death.",
+        "system_q0": "The Black Death, which struck Europe in the mid-14th century, was one of the deadliest pandemics in human history. It was caused by the bacterium Yersinia pestis and transmitted through fleas on rats. The pandemic resulted in the deaths of an estimated 25-30 million people, or about one-third of Europe's population at the time. The Black Death had profound social, economic, and cultural impacts, including labor shortages, changes in land use, and shifts in power dynamics. It also led to a decline in the influence of the Church and contributed to social upheavals and changes in the feudal system.",
+        "u1": "how many people died",
+        "u1_duplicate": "death toll",
+        "system_q1": "The Black Death resulted in the deaths of an estimated 25-30 million people."
+    },
+    {
+        "u0": "What is the function of the International Monetary Fund?",
+        "u0_duplicate": "Explain the role of the International Monetary Fund.",
+        "system_q0": "The International Monetary Fund (IMF) is an international organization established in 1944 to promote global economic stability and growth. Its main functions include providing financial assistance to member countries facing balance of payments problems, offering policy advice, and conducting economic surveillance. The IMF also provides technical assistance and training to help countries improve their economic management. By fostering international monetary cooperation, the IMF aims to secure financial stability, facilitate international trade, promote high employment, and reduce poverty around the world.",
+        "u1": "what kind of assistance does it provide",
+        "u1_duplicate": "type of help offered",
+        "system_q1": "The IMF provides financial assistance, policy advice, and technical assistance to member countries."
+    },
+    {
+        "u0": "What was the significance of the Emancipation Proclamation?",
+        "u0_duplicate": "Explain the importance of the Emancipation Proclamation.",
+        "system_q0": "The Emancipation Proclamation, issued by President Abraham Lincoln on January 1, 1863, was a landmark executive order that declared the freedom of all enslaved people in Confederate-held territory. It marked a turning point in the American Civil War by transforming the fight to preserve the Union into a battle for human liberation. The proclamation also allowed African Americans to join the Union Army and Navy, bolstering the Union's manpower. While it did not immediately free all enslaved individuals, it set the stage for the abolition of slavery and the eventual passage of the 13th Amendment.",
+        "u1": "who issued it",
+        "u1_duplicate": "issuer of the proclamation",
+        "system_q1": "The Emancipation Proclamation was issued by President Abraham Lincoln."
+    },
+    {
+        "u0": "What are the key features of the Renaissance?",
+        "u0_duplicate": "Tell me about the Renaissance period.",
+        "system_q0": "The Renaissance was a cultural, artistic, political, and economic rebirth that occurred in Europe from the 14th to the 17th century. Key features of the Renaissance include a renewed interest in classical antiquity, humanism, and individual achievement. It saw significant developments in art, literature, science, and philosophy. Famous figures from this period include Leonardo da Vinci, Michelangelo, and Galileo. The Renaissance marked a transition from the medieval to the modern world.",
+        "u1": "name some famous figures",
+        "u1_duplicate": "notable people from that period",
+        "system_q1": "Famous figures from the Renaissance period include Leonardo da Vinci, Michelangelo, and Galileo."
+    },
+    {
+        "u0": "What are the main components of a computer?",
+        "u0_duplicate": "Explain the key parts of a computer.",
+        "system_q0": "A computer consists of several main components, each performing specific functions. The central processing unit (CPU) is the brain of the computer, responsible for executing instructions. The motherboard connects all components and allows them to communicate. Random access memory (RAM) is used for temporary storage of data that the CPU needs to access quickly. The hard drive or solid-state drive (SSD) provides long-term storage for data and programs. Other essential components include the power supply, graphics card, and input/output devices such as the keyboard, mouse, and monitor.",
+        "u1": "what is the CPU's function",
+        "u1_duplicate": "role of the CPU",
+        "system_q1": "The CPU is responsible for executing instructions and is considered the brain of the computer."
+    },
+    {
+        "u0": "What is the function of the United States Supreme Court?",
+        "u0_duplicate": "Explain the role of the United States Supreme Court.",
+        "system_q0": "The United States Supreme Court is the highest court in the federal judiciary of the United States. Its main functions are to interpret the Constitution, review laws, and decide cases involving states' rights. The Court has the power of judicial review, allowing it to invalidate laws and executive actions that it deems unconstitutional. It also serves as the final arbiter of disputes between states and federal authorities, and its decisions set precedents that guide the interpretation of laws across the country.",
+        "u1": "what is judicial review",
+        "u1_duplicate": "explain judicial review",
+        "system_q1": "Judicial review is the power of the Supreme Court to invalidate laws and executive actions that it deems unconstitutional."
+    },
+    {
+        "u0": "What caused the Great Depression?",
+        "u0_duplicate": "Explain the reasons behind the Great Depression.",
+        "system_q0": "The Great Depression, which began in 1929 and lasted through the 1930s, was caused by a combination of factors including the stock market crash of 1929, bank failures, reduced consumer spending, and poor economic policies. The crash led to a loss of wealth and a decline in consumer confidence. Bank failures further reduced the money supply, and decreased spending led to a drop in production and rising unemployment. The Great Depression had widespread economic, social, and political impacts worldwide.",
+        "u1": "what happened in 1929",
+        "u1_duplicate": "event in 1929",
+        "system_q1": "The stock market crash of 1929 was a key event that triggered the Great Depression."
+    },
+    {
+        "u0": "What is the purpose of the European Union?",
+        "u0_duplicate": "Explain the main goals of the European Union.",
+        "system_q0": "The European Union (EU) is a political and economic union of 27 member states located primarily in Europe. Its main goals are to promote economic cooperation and integration, ensure the free movement of people, goods, services, and capital, and maintain peace and stability in the region. The EU also aims to uphold common policies on various issues, including trade, agriculture, fisheries, and regional development. Additionally, it works to promote human rights, democracy, and environmental protection.",
+        "u1": "how many member states are there",
+        "u1_duplicate": "current number of member states",
+        "system_q1": "The European Union has 27 member states."
+    },
+    {
+        "u0": "Describe the history of the printing press.",
+        "u0_duplicate": "Explain the development of the printing press.",
+        "system_q0": "The printing press, invented by Johannes Gutenberg in the mid-15th century, revolutionized the production and distribution of books. Gutenberg's press used movable type, which allowed for the mass production of texts. This invention greatly facilitated the spread of knowledge, literacy, and education, contributing to the Renaissance, the Reformation, and the Scientific Revolution. The printing press is considered one of the most important inventions in human history.",
+        "u1": "who invented it",
+        "u1_duplicate": "inventor of the press",
+        "system_q1": "The printing press was invented by Johannes Gutenberg."
+    },
+    {
+        "u0": "What are the benefits of renewable energy?",
+        "u0_duplicate": "Explain the advantages of renewable energy.",
+        "system_q0": "Renewable energy sources, such as solar, wind, hydro, and geothermal, offer numerous benefits. They produce little to no greenhouse gas emissions, reducing the impact on climate change. Renewable energy is sustainable, meaning it won't run out over time, unlike fossil fuels. Additionally, renewable energy can reduce dependence on imported fuels, enhance energy security, and create jobs in manufacturing, installation, and maintenance of renewable energy systems.",
+        "u1": "how does it impact climate",
+        "u1_duplicate": "effect on climate change",
+        "system_q1": "Renewable energy produces little to no greenhouse gas emissions, which helps reduce the impact on climate change."
+    }
+]
+
+
+
+
+
+
+
+

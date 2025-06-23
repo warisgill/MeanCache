@@ -1,0 +1,290 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/condabin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/conda-env
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/activate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/bin/deactivate
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.sh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/fish/conf.d/conda.fish
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/Conda.psm1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/shell/condabin/conda-hook.ps1
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /apps/easybuild/software/tinkercliffs-rome_a100/Anaconda3/2022.05/etc/profile.d/conda.csh
+no change     /home/waris/.bashrc
+No action taken.
+/home/waris/.conda/envs/llm/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+WARNING flwr 2024-01-09 18:02:36,228 | fedavg.py:117 | 
+Setting `min_available_clients` lower than `min_fit_clients` or
+`min_evaluate_clients` can cause the server to fail when there are too few clients
+connected to the server. `min_available_clients` must be set to a value larger
+than or equal to the values of `min_fit_clients` and `min_evaluate_clients`.
+
+INFO flwr 2024-01-09 18:02:36,230 | app.py:178 | Starting Flower simulation, config: ServerConfig(num_rounds=50, round_timeout=None)
+2024-01-09 18:02:39,650	INFO worker.py:1724 -- Started a local Ray instance.
+INFO flwr 2024-01-09 18:02:41,200 | app.py:213 | Flower VCE: Ray initialized with resources: {'CPU': 32.0, 'memory': 1153616641024.0, 'accelerator_type:A100': 1.0, 'GPU': 4.0, 'object_store_memory': 200000000000.0, 'node:10.128.9.202': 1.0, 'node:__internal_head__': 1.0}
+INFO flwr 2024-01-09 18:02:41,200 | app.py:219 | Optimize your simulation with Flower VCE: https://flower.dev/docs/framework/how-to-run-simulations.html
+INFO flwr 2024-01-09 18:02:41,200 | app.py:242 | Flower VCE: Resources for each Virtual Client: {'num_cpus': 3, 'num_gpus': 1}
+INFO flwr 2024-01-09 18:02:41,210 | app.py:288 | Flower VCE: Creating VirtualClientEngineActorPool with 4 actors
+INFO flwr 2024-01-09 18:02:41,210 | server.py:89 | Initializing global parameters
+INFO flwr 2024-01-09 18:02:41,210 | server.py:276 | Requesting initial parameters from one random client
+[36m(DefaultActor pid=31169)[0m .gitattributes:   0%|          | 0.00/737 [00:00<?, ?B/s].gitattributes: 100%|██████████| 737/737 [00:00<00:00, 7.43MB/s]
+[36m(DefaultActor pid=31169)[0m 1_Pooling/config.json:   0%|          | 0.00/190 [00:00<?, ?B/s]1_Pooling/config.json: 100%|██████████| 190/190 [00:00<00:00, 2.84MB/s]
+[36m(DefaultActor pid=31169)[0m README.md:   0%|          | 0.00/11.5k [00:00<?, ?B/s]README.md: 100%|██████████| 11.5k/11.5k [00:00<00:00, 138MB/s]
+[36m(DefaultActor pid=31169)[0m config.json:   0%|          | 0.00/612 [00:00<?, ?B/s]config.json: 100%|██████████| 612/612 [00:00<00:00, 4.17MB/s]
+[36m(DefaultActor pid=31169)[0m config_sentence_transformers.json:   0%|          | 0.00/116 [00:00<?, ?B/s]config_sentence_transformers.json: 100%|██████████| 116/116 [00:00<00:00, 1.03MB/s]
+[36m(DefaultActor pid=31169)[0m data_config.json:   0%|          | 0.00/25.5k [00:00<?, ?B/s]data_config.json: 100%|██████████| 25.5k/25.5k [00:00<00:00, 256MB/s]
+[36m(DefaultActor pid=31169)[0m pytorch_model.bin:   0%|          | 0.00/90.9M [00:00<?, ?B/s]
+[36m(DefaultActor pid=31169)[0m pytorch_model.bin:  23%|██▎       | 21.0M/90.9M [00:00<00:00, 173MB/s]
+[36m(DefaultActor pid=31169)[0m pytorch_model.bin:  69%|██████▉   | 62.9M/90.9M [00:00<00:00, 289MB/s]
+[36m(DefaultActor pid=31169)[0m pytorch_model.bin: 100%|██████████| 90.9M/90.9M [00:00<00:00, 283MB/s]
+[36m(DefaultActor pid=31169)[0m sentence_bert_config.json:   0%|          | 0.00/53.0 [00:00<?, ?B/s]sentence_bert_config.json: 100%|██████████| 53.0/53.0 [00:00<00:00, 791kB/s]
+[36m(DefaultActor pid=31169)[0m special_tokens_map.json:   0%|          | 0.00/112 [00:00<?, ?B/s]special_tokens_map.json: 100%|██████████| 112/112 [00:00<00:00, 1.77MB/s]
+[36m(DefaultActor pid=31169)[0m tokenizer.json:   0%|          | 0.00/466k [00:00<?, ?B/s]tokenizer.json: 100%|██████████| 466k/466k [00:00<00:00, 24.4MB/s]
+[36m(DefaultActor pid=31169)[0m tokenizer_config.json:   0%|          | 0.00/383 [00:00<?, ?B/s]tokenizer_config.json: 100%|██████████| 383/383 [00:00<00:00, 6.67MB/s]
+[36m(DefaultActor pid=31169)[0m train_script.py:   0%|          | 0.00/13.8k [00:00<?, ?B/s]train_script.py: 100%|██████████| 13.8k/13.8k [00:00<00:00, 210MB/s]
+[36m(DefaultActor pid=31169)[0m vocab.txt:   0%|          | 0.00/232k [00:00<?, ?B/s]vocab.txt: 100%|██████████| 232k/232k [00:00<00:00, 34.2MB/s]
+[36m(DefaultActor pid=31169)[0m modules.json:   0%|          | 0.00/349 [00:00<?, ?B/s]modules.json: 100%|██████████| 349/349 [00:00<00:00, 6.07MB/s]
+INFO flwr 2024-01-09 18:02:54,323 | server.py:280 | Received initial parameters from one random client
+INFO flwr 2024-01-09 18:02:54,323 | server.py:91 | Evaluating initial parameters
+INFO flwr 2024-01-09 18:03:15,168 | server.py:94 | initial parameters (loss, other metrics): None, {'val_f1': 0.743, 'test_f1': 0.746, 'val_precision': 0.632, 'test_precision': 0.635, 'val_recall': 0.902, 'test_recall': 0.903, 'val_accuracy': 0.764, 'test_accuracy': 0.751}
+INFO flwr 2024-01-09 18:03:15,168 | server.py:104 | FL starting
+DEBUG flwr 2024-01-09 18:03:15,168 | server.py:222 | fit_round 1: strategy sampled 4 clients (out of 20)
+ERROR flwr 2024-01-09 18:03:24,679 | ray_client_proxy.py:145 | Traceback (most recent call last):
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 138, in _submit_job
+    res = self.actor_pool.get_client_result(self.cid, timeout)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 414, in get_client_result
+    return self._fetch_future_result(cid)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 300, in _fetch_future_result
+    res_cid, res = ray.get(future)  # type: (str, ClientRes)
+                   ^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/auto_init_hook.py", line 22, in auto_init_wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/client_mode_hook.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/ray/_private/worker.py", line 2624, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(ClientException): [36mray::DefaultActor.run()[39m (pid=31169, ip=10.128.9.202, actor_id=3e2e64c6b72016f431acf98a01000000, repr=<flwr.simulation.ray_transport.ray_actor.DefaultActor object at 0x2aab472d34d0>)
+                  ^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 191, in fit
+    return maybe_call_fit(
+           ^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/client.py", line 223, in maybe_call_fit
+    return client.fit(fit_ins)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/numpy_client.py", line 227, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 123, in fit
+    self.net, val_results, test_results = _trainTransformer(
+                                          ^^^^^^^^^^^^^^^^^^
+  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 45, in _trainTransformer
+    model.fit(
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/SentenceTransformer.py", line 721, in fit
+    loss_value = loss_model(features, labels)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in forward
+    embeddings = [self.model(sentence_feature)['sentence_embedding'] for sentence_feature in sentence_features]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in <listcomp>
+    embeddings = [self.model(sentence_feature)['sentence_embedding'] for sentence_feature in sentence_features]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/models/Transformer.py", line 66, in forward
+    output_states = self.auto_model(**trans_features, return_dict=False)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 1013, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 607, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 497, in forward
+    self_attention_outputs = self.attention(
+                             ^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 427, in forward
+    self_outputs = self.self(
+                   ^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 365, in forward
+    context_layer = torch.matmul(attention_probs, value_layer)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 208.00 MiB. GPU 0 has a total capacty of 79.35 GiB of which 158.12 MiB is free. Including non-PyTorch memory, this process has 79.19 GiB memory in use. Of the allocated memory 75.96 GiB is allocated by PyTorch, and 1.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+The above exception was the direct cause of the following exception:
+
+[36mray::DefaultActor.run()[39m (pid=31169, ip=10.128.9.202, actor_id=3e2e64c6b72016f431acf98a01000000, repr=<flwr.simulation.ray_transport.ray_actor.DefaultActor object at 0x2aab472d34d0>)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 84, in run
+    raise ClientException(str(message)) from ex
+flwr.simulation.ray_transport.ray_actor.ClientException: 
+>>>>>>>A ClientException occurred.('\n\tSomething went wrong when running your client workload.\n\tClient 14 crashed when the DefaultActor was running its workload.\n\tException triggered on the client side: Traceback (most recent call last):\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 72, in run\n    job_results = job_fn(client)\n                  ^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 191, in fit\n    return maybe_call_fit(\n           ^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/client.py", line 223, in maybe_call_fit\n    return client.fit(fit_ins)\n           ^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/numpy_client.py", line 227, in _fit\n    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 123, in fit\n    self.net, val_results, test_results = _trainTransformer(\n                                          ^^^^^^^^^^^^^^^^^^\n  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 45, in _trainTransformer\n    model.fit(\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/SentenceTransformer.py", line 721, in fit\n    loss_value = loss_model(features, labels)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in forward\n    embeddings = [self.model(sentence_feature)[\'sentence_embedding\'] for sentence_feature in sentence_features]\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in <listcomp>\n    embeddings = [self.model(sentence_feature)[\'sentence_embedding\'] for sentence_feature in sentence_features]\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward\n    input = module(input)\n            ^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/models/Transformer.py", line 66, in forward\n    output_states = self.auto_model(**trans_features, return_dict=False)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 1013, in forward\n    encoder_outputs = self.encoder(\n                      ^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 607, in forward\n    layer_outputs = layer_module(\n                    ^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 497, in forward\n    self_attention_outputs = self.attention(\n                             ^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 427, in forward\n    self_outputs = self.self(\n                   ^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 365, in forward\n    context_layer = torch.matmul(attention_probs, value_layer)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ntorch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 208.00 MiB. GPU 0 has a total capacty of 79.35 GiB of which 158.12 MiB is free. Including non-PyTorch memory, this process has 79.19 GiB memory in use. Of the allocated memory 75.96 GiB is allocated by PyTorch, and 1.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n',)
+
+ERROR flwr 2024-01-09 18:03:24,679 | ray_client_proxy.py:146 | [36mray::DefaultActor.run()[39m (pid=31169, ip=10.128.9.202, actor_id=3e2e64c6b72016f431acf98a01000000, repr=<flwr.simulation.ray_transport.ray_actor.DefaultActor object at 0x2aab472d34d0>)
+                  ^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 191, in fit
+    return maybe_call_fit(
+           ^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/client.py", line 223, in maybe_call_fit
+    return client.fit(fit_ins)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/numpy_client.py", line 227, in _fit
+    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 123, in fit
+    self.net, val_results, test_results = _trainTransformer(
+                                          ^^^^^^^^^^^^^^^^^^
+  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 45, in _trainTransformer
+    model.fit(
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/SentenceTransformer.py", line 721, in fit
+    loss_value = loss_model(features, labels)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in forward
+    embeddings = [self.model(sentence_feature)['sentence_embedding'] for sentence_feature in sentence_features]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in <listcomp>
+    embeddings = [self.model(sentence_feature)['sentence_embedding'] for sentence_feature in sentence_features]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/models/Transformer.py", line 66, in forward
+    output_states = self.auto_model(**trans_features, return_dict=False)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 1013, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 607, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 497, in forward
+    self_attention_outputs = self.attention(
+                             ^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 427, in forward
+    self_outputs = self.self(
+                   ^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 365, in forward
+    context_layer = torch.matmul(attention_probs, value_layer)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 208.00 MiB. GPU 0 has a total capacty of 79.35 GiB of which 158.12 MiB is free. Including non-PyTorch memory, this process has 79.19 GiB memory in use. Of the allocated memory 75.96 GiB is allocated by PyTorch, and 1.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+The above exception was the direct cause of the following exception:
+
+[36mray::DefaultActor.run()[39m (pid=31169, ip=10.128.9.202, actor_id=3e2e64c6b72016f431acf98a01000000, repr=<flwr.simulation.ray_transport.ray_actor.DefaultActor object at 0x2aab472d34d0>)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 84, in run
+    raise ClientException(str(message)) from ex
+flwr.simulation.ray_transport.ray_actor.ClientException: 
+>>>>>>>A ClientException occurred.('\n\tSomething went wrong when running your client workload.\n\tClient 14 crashed when the DefaultActor was running its workload.\n\tException triggered on the client side: Traceback (most recent call last):\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_actor.py", line 72, in run\n    job_results = job_fn(client)\n                  ^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/simulation/ray_transport/ray_client_proxy.py", line 191, in fit\n    return maybe_call_fit(\n           ^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/client.py", line 223, in maybe_call_fit\n    return client.fit(fit_ins)\n           ^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/flwr/client/numpy_client.py", line 227, in _fit\n    results = self.numpy_client.fit(parameters, ins.config)  # type: ignore\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 123, in fit\n    self.net, val_results, test_results = _trainTransformer(\n                                          ^^^^^^^^^^^^^^^^^^\n  File "/home/waris/Github/fl-gptcache/utils/FlowerClient.py", line 45, in _trainTransformer\n    model.fit(\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/SentenceTransformer.py", line 721, in fit\n    loss_value = loss_model(features, labels)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in forward\n    embeddings = [self.model(sentence_feature)[\'sentence_embedding\'] for sentence_feature in sentence_features]\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/losses/OnlineContrastiveLoss.py", line 42, in <listcomp>\n    embeddings = [self.model(sentence_feature)[\'sentence_embedding\'] for sentence_feature in sentence_features]\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/container.py", line 215, in forward\n    input = module(input)\n            ^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/sentence_transformers/models/Transformer.py", line 66, in forward\n    output_states = self.auto_model(**trans_features, return_dict=False)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 1013, in forward\n    encoder_outputs = self.encoder(\n                      ^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 607, in forward\n    layer_outputs = layer_module(\n                    ^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 497, in forward\n    self_attention_outputs = self.attention(\n                             ^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 427, in forward\n    self_outputs = self.self(\n                   ^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl\n    return forward_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/waris/.conda/envs/llm/lib/python3.11/site-packages/transformers/models/bert/modeling_bert.py", line 365, in forward\n    context_layer = torch.matmul(attention_probs, value_layer)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ntorch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 208.00 MiB. GPU 0 has a total capacty of 79.35 GiB of which 158.12 MiB is free. Including non-PyTorch memory, this process has 79.19 GiB memory in use. Of the allocated memory 75.96 GiB is allocated by PyTorch, and 1.95 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF\n',)
+DEBUG flwr 2024-01-09 18:04:39,246 | server.py:236 | fit_round 1 received 3 results and 1 failures
+INFO flwr 2024-01-09 18:04:58,777 | server.py:125 | fit progress: (1, None, {'val_f1': 0.764, 'test_f1': 0.766, 'val_precision': 0.668, 'test_precision': 0.669, 'val_recall': 0.894, 'test_recall': 0.895, 'val_accuracy': 0.791, 'test_accuracy': 0.779}, 103.60888228844851)
+INFO flwr 2024-01-09 18:04:58,778 | server.py:171 | evaluate_round 1: no clients selected, cancel
+DEBUG flwr 2024-01-09 18:04:58,778 | server.py:222 | fit_round 2: strategy sampled 4 clients (out of 20)
+DEBUG flwr 2024-01-09 18:06:21,694 | server.py:236 | fit_round 2 received 4 results and 0 failures
+INFO flwr 2024-01-09 18:06:40,696 | server.py:125 | fit progress: (2, None, {'val_f1': 0.774, 'test_f1': 0.775, 'val_precision': 0.69, 'test_precision': 0.691, 'val_recall': 0.882, 'test_recall': 0.883, 'val_accuracy': 0.8, 'test_accuracy': 0.793}, 205.5280051836744)
+INFO flwr 2024-01-09 18:06:40,697 | server.py:171 | evaluate_round 2: no clients selected, cancel
+DEBUG flwr 2024-01-09 18:06:40,697 | server.py:222 | fit_round 3: strategy sampled 4 clients (out of 20)
+slurmstepd: error: *** JOB 1933981 ON tc-gpu002 CANCELLED AT 2024-01-09T18:06:43 ***
