@@ -1,4 +1,4 @@
->**Note:** This repository contains code for MeanCache. The codebase has hardcoded paths (local to my enviorment) and some other experimental components. I will update these paths in the future to make it more user-friendly and easier to run without modifications. 
+<!-->**Note:** This repository contains code for MeanCache. The codebase has hardcoded paths (local to my enviorment) and some other experimental components. I will update these paths in the future to make it more user-friendly and easier to run without modifications.--> 
 
 
 ## Dataset Information
